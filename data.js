@@ -1,8 +1,10 @@
 const data = [
+
     /// Welcome1
     { title: "Welcome To Learn", link: "welcome-to-learn-verified", lab: false, readCount: 0 },
     { title: "Navigating Curriculum On Learn", link: "prework-intro-navigating-curriculum-on-learn-ide", lab: false },
     { title: "Ask A Question", link: "prework-intro-ask-a-question", lab: false },
+
     /// Git GitHub2
     { title: "Introduction To Version Control", link: "git-version-control-introduction-to-version-control", lab: false },
     { title: "Version Control Basics", link: "git-version-control-git-basics", lab: false },
@@ -17,6 +19,7 @@ const data = [
     { title: "Git Basics Quiz", link: "git-github-learn-quiz", lab: false },
     ///3
     { title: "TDD Rspec And Learn", link: "intro-to-tdd-rspec-and-learn-v-000", lab: true },
+
     /// Intro to Ruby Dev3
     { title: "Intro to Tic Tac Toe", link: "intro-to-tic-tac-toe-rb", lab: false },
     { title: "MINSWAN- Yukihuro Matsumoto", link: "matz-readme", lab: false },
@@ -42,12 +45,26 @@ const data = [
     // OO Ruby6
     { title: "Intro to Object Orientation", link: "", lab: false },
     { title: "OO Ruby Video: Object Orientation Overview", link: "oo-ruby-video-object-orientation-overview", lab: false },
-    ////
+    //// classes/instances
     { title: "Intro to Classes and Instances", link: "ruby-intro-to-classes-and-instances", lab: false },
     { title: "Classes and Instances Lab", link: "classes-and-instances-lab-ruby-v-000", lab: true },
-    ////
+    //// instance methods
     { title: "Instance Methods", link: "instance-methods-readme-ruby", lab: false },
     { title: "Instance Methods Lab", link: "instance-methods-lab-ruby-v-000", lab: true },
+    //// obj props
+    { title: "Instance Variables", link: "ruby-instance-variables-lab-v-000", lab: true },
+    { title: "Barking Dog Lab", link: "oo-barking-dog-v-000", lab: true },
+
+
+    // SQL
+    { title: "What is SQL", link: "sql-topic-introduction", lab: false },
+    ////
+    { title: "SQL Intro and Installation", link: "sql-intro-and-installation-readme", lab: false },
+    { title: "SQL Database Basics", link: "sql-database-basics-readme", lab: false },
+
+    // ORMs and ActiveRecord8
+    { title: "Why an ORM is Useful", link: "ruby-orm", lab: false },
+
 
 
 

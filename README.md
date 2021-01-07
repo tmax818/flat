@@ -5,20 +5,38 @@
 - [Version Control Basics](lectures/git-version-control-git-basics/README.md)
 - [Getting Code With Git](lectures/git-version-control-getting-code-with-git/README.md)
 - [Pushing Code With Git](lectures/git-version-control-pushing-code-with-git/README.md)
-- [Git Basics Lab](labs/git-basics-lab-v-000)
+- [Git Basics Lab](labs/git-basics-lab-v-000) - LAB
 - [Thinking Ahead](lectures/careers-online-presence-github/README.md)
 - [GitHub Pull Request Basics](lectures/github-pull-request-basics/README.md)
 - [Git Collaboration](lectures/git-collaboration-readme/README.md)
-- [Git Collaboration Quiz](lectures//README.md)
-- [Git Basics Quiz](lectures//README.md)
-- [TDD Rspec And Learn](labs/intro-to-tdd-rspec-and-learn-v-000)
-- [Hello World](labs/hello-world-ruby-v-000)
-- [Reading Error Messages](labs/ruby-lecture-reading-error-messages-v-000)
-- [Variable Assignment Lab](labs/ruby-variable-assignment-v-000)
-- [Tic Tac Toe Board](labs/ttt-2-board-rb-v-000)
-- [Intro to Methods](labs/ruby-methods-readme-v-000)
+- [Git Collaboration Quiz](lectures/git-collaboration-quiz/README.md)
+- [Git Basics Quiz](lectures/git-github-learn-quiz/README.md)
+- [TDD Rspec And Learn](labs/intro-to-tdd-rspec-and-learn-v-000) - LAB
+- [Intro to Tic Tac Toe](lectures/intro-to-tic-tac-toe-rb/README.md)
+- [MINSWAN- Yukihuro Matsumoto](lectures/matz-readme/README.md)
+- [What is a Program?](lectures/ruby-lecture-intro-what-is-a-program/README.md)
+- [Hello World](labs/hello-world-ruby-v-000) - LAB
+- [Intro to IRB](lectures/irb-readme/README.md)
+- [Reading Error Messages](labs/ruby-lecture-reading-error-messages-v-000) - LAB
+- [Variable Assignment Lab](labs/ruby-variable-assignment-v-000) - LAB
+- [Tic Tac Toe Board](labs/ttt-2-board-rb-v-000) - LAB
+- [Intro to Methods](labs/ruby-methods-readme-v-000) - LAB
 - [String Interpolation](lectures/interpolation-readme/README.md)
-- [Display Tic Tac Toe Board Example](labs/ttt-3-display_board-example-v-000)
+- [Display Tic Tac Toe Board Example](labs/ttt-3-display_board-example-v-000) - LAB
 - [Intro to CLI Applications](lectures/intro-to-cli-applications/README.md)
 - [CLI Applications in Ruby](lectures/ruby-cli-applications-readme/README.md)
-- [gets CLI Input](labs/ruby-gets-input-v-000)
+- [gets CLI Input](labs/ruby-gets-input-v-000) - LAB
+- [Greeting CLI Lab](labs/greeting-cli-v-000) - LAB
+- [Tic Tac Toe Move](labs/ttt-5-move-rb-v-000) - LAB
+- [Intro to Object Orientation](lectures//README.md)
+- [OO Ruby Video: Object Orientation Overview](lectures/oo-ruby-video-object-orientation-overview/README.md)
+- [Intro to Classes and Instances](lectures/ruby-intro-to-classes-and-instances/README.md)
+- [Classes and Instances Lab](labs/classes-and-instances-lab-ruby-v-000) - LAB
+- [Instance Methods](lectures/instance-methods-readme-ruby/README.md)
+- [Instance Methods Lab](labs/instance-methods-lab-ruby-v-000) - LAB
+- [Instance Variables](labs/ruby-instance-variables-lab-v-000) - LAB
+- [Barking Dog Lab](labs/oo-barking-dog-v-000) - LAB
+- [What is SQL](lectures/sql-topic-introduction/README.md)
+- [SQL Intro and Installation](lectures/sql-intro-and-installation-readme/README.md)
+- [SQL Database Basics](lectures/sql-database-basics-readme/README.md)
+- [Why an ORM is Useful](lectures/ruby-orm/README.md)

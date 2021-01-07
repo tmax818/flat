@@ -8,7 +8,7 @@
     "write": "node writeData.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "tmax818",
   "license": "ISC",
   "dependencies": {
     "shelljs": "^0.8.4"
