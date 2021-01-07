@@ -1,0 +1,1 @@
+# I want to write a bash script that will clone all the repos in the `data.js` file into the appropriate directories. Holy shit! I did it!!
