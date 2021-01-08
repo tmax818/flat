@@ -1,2 +1,4 @@
 node_modules
-forks
+forks/*
+lectures/*
+labs/*

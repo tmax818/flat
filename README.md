@@ -40,3 +40,4 @@
 - [SQL Intro and Installation](lectures/sql-intro-and-installation-readme/README.md)
 - [SQL Database Basics](lectures/sql-database-basics-readme/README.md)
 - [Why an ORM is Useful](lectures/ruby-orm/README.md)
+- [Intro To Npm Readme](lectures/intro-to-npm-readme/README.md)

@@ -66,6 +66,11 @@ const data = [
     { title: "Why an ORM is Useful", link: "ruby-orm", lab: false },
 
 
+    // React15
+    { title: "Intro To Npm Readme", link: "intro-to-npm-readme", lab: false },
+
+
+
 
 
 ]
