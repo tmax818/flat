@@ -54,6 +54,13 @@ const data = [
     //// obj props
     { title: "Instance Variables", link: "ruby-instance-variables-lab-v-000", lab: true },
     { title: "Barking Dog Lab", link: "oo-barking-dog-v-000", lab: true },
+    { title: "Object Attributes", link: "ruby-object-attrs-readme", lab: false },
+    { title: "Object Attributes Lab", link: "ruby-object-attributes-lab-v-000", lab: true },
+    { title: "Object Accessors", link: "ruby-oo-macros-readme", lab: false },
+    { title: "Meowing Cat", link: "oo-meowing-cat-v-000", lab: true },
+    { title: "Video Review: Object Properties", link: "oo-ruby-video-review-object-properties", lab: false },
+    //// obj lifecycle
+
 
 
     // SQL
