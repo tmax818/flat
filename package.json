@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "write": "node writeData.js"
+    "write": "node writeData.js",
+    "clone": "node cloneRepos.js"
   },
   "keywords": [],
   "author": "tmax818",

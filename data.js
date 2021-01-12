@@ -41,9 +41,7 @@ const data = [
     { title: "gets CLI Input", link: "ruby-gets-input-v-000", lab: true },
     { title: "Greeting CLI Lab", link: "greeting-cli-v-000", lab: true },
     { title: "Tic Tac Toe Move", link: "ttt-5-move-rb-v-000", lab: true },
-
-    // OO Ruby6
-    { title: "Intro to Object Orientation", link: "", lab: false },
+    // OO Ruby6 first repo missing
     { title: "OO Ruby Video: Object Orientation Overview", link: "oo-ruby-video-object-orientation-overview", lab: false },
     //// classes/instances
     { title: "Intro to Classes and Instances", link: "ruby-intro-to-classes-and-instances", lab: false },
@@ -60,14 +58,12 @@ const data = [
     { title: "Meowing Cat", link: "oo-meowing-cat-v-000", lab: true },
     { title: "Video Review: Object Properties", link: "oo-ruby-video-review-object-properties", lab: false },
     //// obj lifecycle
-
-
-
     // SQL
     { title: "What is SQL", link: "sql-topic-introduction", lab: false },
     ////
     { title: "SQL Intro and Installation", link: "sql-intro-and-installation-readme", lab: false },
     { title: "SQL Database Basics", link: "sql-database-basics-readme", lab: false },
+    { title: "SQL Databases and Text Editors", link: "sql-databases-and-text-editors-readme", lab: false },
 
     // ORMs and ActiveRecord8
     { title: "Why an ORM is Useful", link: "ruby-orm", lab: false },
