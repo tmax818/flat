@@ -57,6 +57,17 @@ const data = [
     { title: "Object Accessors", link: "ruby-oo-macros-readme", lab: false },
     { title: "Meowing Cat", link: "oo-meowing-cat-v-000", lab: true },
     { title: "Video Review: Object Properties", link: "oo-ruby-video-review-object-properties", lab: false },
+    ////
+    { title: "Object Initialization", link: "ruby-initialization", lab: false },
+    { title: "Object Initialization Lab", link: "ruby-object-initialize-lab-v-000", lab: true },
+    { title: "OO Basics", link: "oo-basics-v-000", lab: true },
+    { title: "OO Basics with Class Constants", link: "oo-basics-with-class-constants-v-000", lab: true },
+    { title: "OO School Domain", link: "school-domain-v-000", lab: true },
+    ////
+    { title: "Intro to Object OrientationRuby", link: "intro-to-object-orientation-ruby", lab: false },
+    ////
+    { title: "Self", link: "ruby-self-readme", lab: false },
+    { title: "OO Counting Sentences", link: "oo-counting-sentences-v-000", lab: true },
     //// obj lifecycle
     // SQL
     { title: "What is SQL", link: "sql-topic-introduction", lab: false },
@@ -79,3 +90,4 @@ const data = [
 ]
 
 module.exports = data
+
