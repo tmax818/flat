@@ -1,5 +1,5 @@
 const shell = require('shelljs');
-const data = require("./data")
+const data = require("../data/data")
 
 
 data.forEach(datum => {
