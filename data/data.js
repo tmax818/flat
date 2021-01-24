@@ -29,12 +29,22 @@ const data = [
     { title: "Intro to IRB", link: "irb-readme", lab: false },
     { title: "Reading Error Messages", link: "ruby-lecture-reading-error-messages-v-000", lab: true },
     ////3
+    { title: "About Variable Assignment", link: "variable-readme", lab: false },
     { title: "Variable Assignment Lab", link: "ruby-variable-assignment-v-000", lab: true },
+    { title: "Ruby Data Types", link: "data-types-readme", lab: false },
+    { title: "Array Basics", link: "array-readme-qualifying", lab: false },
     { title: "Tic Tac Toe Board", link: "ttt-2-board-rb-v-000", lab: true },
     ////
+    { title: "Intro To Tdd Rspec And Learn", link: "intro-to-tdd-rspec-and-learn-v-000", lab: true },
     { title: "Intro to Methods", link: "ruby-methods-readme-v-000", lab: true },
     { title: "String Interpolation", link: "interpolation-readme", lab: false },
+    { title: "Puts and Return", link: "puts-print-and-return-readme", lab: false },
     { title: "Display Tic Tac Toe Board Example", link: "ttt-3-display_board-example-v-000", lab: true },
+    { title: "Methods and Arguments", link: "ruby-arguments-readme", lab: false },
+    { title: "Default Arguments", link: "methods-default-arguments", lab: false },
+    { title: "Say Hello", link: "say-hello-ruby-v-000", lab: true },
+    { title: "Interpolation Super Power", link: "interpolation-super-power-v-000", lab: true },
+    { title: "Display Tic Tac Toe Board", link: "ttt-4-display-board-rb-v-000", lab: true },
     ////
     { title: "Intro to CLI Applications", link: "intro-to-cli-applications", lab: false },
     { title: "CLI Applications in Ruby", link: "ruby-cli-applications-readme", lab: false },

@@ -30,15 +30,52 @@ const data = [
                     { title: "Git Basics Quiz", link: "git-github-learn-quiz", lab: false },
                 ]
             },
-            { id: 2, type: "section", title: "Using Gems", lessons: [] },
+            {
+                id: 2, type: "section", title: "Using Gems", lessons: [
+                    { title: "TDD Rspec And Learn", link: "intro-to-tdd-rspec-and-learn-v-000", lab: true }
+                ]
+            },
         ]
     },
     {
         id: 2, type: "module", title: "Intro to Ruby Dev", sections: [
-            { id: 0, type: "section", title: "Intro to Programming", lessons: [] },
-            { id: 1, type: "section", title: "Debugging", lessons: [] },
-            { id: 2, type: "section", title: "Variables", lessons: [] },
-            { id: 3, type: "section", title: "Methods", lessons: [] },
+            {
+                id: 0, type: "section", title: "Intro to Programming", lessons: [
+                    { title: "Intro to Tic Tac Toe", link: "intro-to-tic-tac-toe-rb", lab: false },
+                    { title: "MINSWAN- Yukihuro Matsumoto", link: "matz-readme", lab: false },
+                    { title: "What is a Program?", link: "ruby-lecture-intro-what-is-a-program", lab: false },
+                    { title: "Hello World", link: "hello-world-ruby-v-000", lab: true },
+                ]
+            },
+            {
+                id: 1, type: "section", title: "Debugging", lessons: [
+                    { title: "Intro to IRB", link: "irb-readme", lab: false },
+                    { title: "Reading Error Messages", link: "ruby-lecture-reading-error-messages-v-000", lab: false }
+                ]
+            },
+            {
+                id: 2, type: "section", title: "Variables", lessons: [
+                    { title: "About Variable Assignment", link: "variable-readme", lab: false },
+                    { title: "Variable Assignment Lab", link: "ruby-variable-assignment-v-000", lab: true },
+                    { title: "Ruby Data Types", link: "data-types-readme", lab: false },
+                    { title: "Array Basics", link: "array-readme-qualifying", lab: false },
+                    { title: "Tic Tac Toe Board", link: "ttt-2-board-rb-v-000", lab: true },
+                ]
+            },
+            {
+                id: 3, type: "section", title: "Methods", lessons: [
+                    { title: "Intro To Tdd Rspec And Learn", link: "intro-to-tdd-rspec-and-learn-v-000", lab: true },
+                    { title: "Intro to Methods", link: "ruby-methods-readme-v-000", lab: true },
+                    { title: "String Interpolation", link: "interpolation-readme", lab: false },
+                    { title: "Puts and Return", link: "puts-print-and-return-readme", lab: false },
+                    { title: "Display Tic Tac Toe Board Example", link: "ttt-3-display_board-example-v-000", lab: true },
+                    { title: "Methods and Arguments", link: "ruby-arguments-readme", lab: false },
+                    { title: "Default Arguments", link: "methods-default-arguments", lab: false },
+                    { title: "Say Hello", link: "say-hello-ruby-v-000", lab: true },
+                    { title: "Interpolation Super Power", link: "interpolation-super-power-v-000", lab: true },
+                    { title: "Display Tic Tac Toe Board", link: "ttt-4-display-board-rb-v-000", lab: true },
+                ]
+            },
             { id: 4, type: "section", title: "Command Line Applications", lessons: [] },
             { id: 5, type: "section", title: "Logic and Conditionals", lessons: [] },
             { id: 6, type: "section", title: "Loops", lessons: [] },
