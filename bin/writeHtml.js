@@ -21,12 +21,15 @@ data.forEach(modules => {
         html.write(`<h2> Section ${section.id + 1}: ${section.title} </h2>`)
         section.lessons.forEach(lesson => {
             html.write(`<li><a href="forks/${lesson.link}/README.md">${lesson.title} </a>`)
-            html.write(`<a href="forks/${lesson.link}/NOTES.md">(Notes)</a></li>`)
+            html.write(`<a href="forks/${lesson.link}/NOTES.md">(Notes)</a> `)
+            html.write(`<a href="https://github.com/tmax818/${lesson.link}" target="blank">(link)</a></li>`)
         })
     })
 })
 
 
 
-html.write(`</body>
+html.write(`
+<script src="app.js"></script>
+</body>
 </html>`)
