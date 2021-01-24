@@ -1,15 +1,10 @@
 const shell = require('shelljs');
 const data = require("../data/data")
+const repo = "https://github.com/tmax818"
 
 
 data.forEach(datum => {
-    if (datum.lab) {
-        //shell.exec(`git clone https://github.com/learn-co-students/${datum.link}.git repos/${datum.link}`)
-        shell.exec(`git clone https://github.com/tmax818/${datum.link}.git forks/${datum.link}`)
-    } else {
-        //shell.exec(`git clone https://github.com/learn-co-curriculum/${datum.link}.git repos/${datum.link}`)
-        shell.exec(`git clone https://github.com/tmax818/${datum.link}.git forks/${datum.link}`)
-    }
+    shell.exec(`git clone ${repo}/${datum.link}.git forks/${datum.link}`)
 })
 
 

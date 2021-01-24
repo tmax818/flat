@@ -2,7 +2,7 @@ const data = [
     {
         id: 0, type: "module", title: "Welcome", sections: [
             {
-                id: 0, type: "section", title: "", lessons: [
+                id: 0, type: "section", title: "Welcome", lessons: [
                     { title: "Welcome To Learn", link: "welcome-to-learn-verified", lab: false, readCount: 0 },
                     { title: "Navigating Curriculum On Learn", link: "prework-intro-navigating-curriculum-on-learn-ide", lab: false },
                     { title: "Ask A Question", link: "prework-intro-ask-a-question", lab: false },
@@ -178,3 +178,5 @@ const data = [
         ]
     }
 ]
+
+module.exports = data
