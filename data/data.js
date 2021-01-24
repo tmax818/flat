@@ -11,7 +11,7 @@ const data = [
     { title: "Getting Code With Git", link: "git-version-control-getting-code-with-git", lab: false },
     { title: "Pushing Code With Git", link: "git-version-control-pushing-code-with-git", lab: false },
     { title: "Git Basics Lab", link: "git-basics-lab-v-000", lab: true },
-    { title: "Thinking Ahead", link: "careers-online-presence-github", lab: false },
+    { title: "Thinking Ahead: GitHub as Career Differentiator", link: "careers-online-presence-github", lab: false },
     ///2
     { title: "GitHub Pull Request Basics", link: "github-pull-request-basics", lab: false },
     { title: "Git Collaboration", link: "git-collaboration-readme", lab: false },
