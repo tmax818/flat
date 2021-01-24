@@ -35,7 +35,6 @@ const data = [
     { title: "Array Basics", link: "array-readme-qualifying", lab: false },
     { title: "Tic Tac Toe Board", link: "ttt-2-board-rb-v-000", lab: true },
     ////
-    { title: "Intro To Tdd Rspec And Learn", link: "intro-to-tdd-rspec-and-learn-v-000", lab: true },
     { title: "Intro to Methods", link: "ruby-methods-readme-v-000", lab: true },
     { title: "String Interpolation", link: "interpolation-readme", lab: false },
     { title: "Puts and Return", link: "puts-print-and-return-readme", lab: false },
@@ -51,6 +50,39 @@ const data = [
     { title: "gets CLI Input", link: "ruby-gets-input-v-000", lab: true },
     { title: "Greeting CLI Lab", link: "greeting-cli-v-000", lab: true },
     { title: "Tic Tac Toe Move", link: "ttt-5-move-rb-v-000", lab: true },
+    ////
+    { title: "Truthiness", link: "truthiness-in-ruby-readme", lab: false },
+    { title: "Booleans", link: "booleans-ruby-readme", lab: false },
+    { title: "About Ruby Conditionals", link: "conditional-readme", lab: false },
+    { title: "Rspec Fizzbuzz", link: "rspec-fizzbuzz-v-000", lab: true },
+    { title: "Tic Tac Toe Position Taken", link: "ttt-6-position-taken-rb-v-000", lab: true },
+    { title: "Valid Tic Tac Toe Move", link: "ttt-7-valid-move-v-000", lab: true },
+    ////
+    { title: "Intro to Loops", link: "looping-introduction", lab: false },
+    { title: "Loops", link: "looping-readme", lab: false },
+    { title: "While and Until Loops", link: "while-and-until-looping-readme", lab: false },
+    { title: "While and Until Loops Lab", link: "looping-while-until-v-000", lab: true },
+    { title: "Tic Tac Toe Turn", link: "ttt-8-turn-v-000", lab: true },
+    { title: "Tic Tac Toe Play Loop", link: "ttt-9-play-loop-v-000", lab: true },
+    ////
+    { title: "Iteration and Abstraction", link: "iterators-and-abstraction-ruby", lab: false },
+    { title: "Intro to Ruby Iterators", link: "intro-to-ruby-iterators", lab: false },
+    { title: "Tic Tac Toe Current Player", link: "ttt-10-current-player-v-000", lab: true },
+    ////
+    { title: "Nested Arrays", link: "nested-arrays-ruby", lab: false },
+    { title: "Boolean Enumerables", link: "ruby-boolean-enumerables", lab: false },
+    { title: "Search Enumerables", link: "ruby-search-enumerators", lab: false },
+    { title: "Tic Tac Toe Game Status", link: "ttt-game-status-v-000", lab: true },
+    { title: "Tic Tac Toe in Ruby", link: "tic-tac-toe-rb-v-000", lab: true },
+    //Intro to HTML
+    { title: "Transitioning from Ruby to HTML", link: "phrg-transitioning-from-ruby-to-html", lab: false },
+    { title: "A Quick Tour of the Web", link: "a-quick-tour-of-the-web", lab: false },
+    { title: "Welcome To HTML", link: "welcome-to-html-readme", lab: false },
+    { title: "Files And Filetypes", link: "files-and-filetypes-readme", lab: false },
+    { title: "Experiencing HTML Lab", link: "experiencing-html-lab-v-000", lab: true },
+    ////
+    { title: "Crafting HTML Documents", link: "crafting-html-docs-readme", lab: false },
+
     // OO Ruby6 first repo missing
     { title: "OO Ruby Video: Object Orientation Overview", link: "oo-ruby-video-object-orientation-overview", lab: false },
     //// classes/instances

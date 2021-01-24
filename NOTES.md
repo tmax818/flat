@@ -45,7 +45,12 @@
  ### [Interpolation Super Power](forks/interpolation-super-power-v-000) 
  ### [Display Tic Tac Toe Board](forks/ttt-4-display-board-rb-v-000) 
  ## Section 5: Command Line Applications 
-## Section 6: Logic and Conditionals 
+### [Intro to CLI Applications](forks/intro-to-cli-applications) 
+ ### [CLI Applications in Ruby](forks/ruby-cli-applications-readme) 
+ ### [gets CLI Input](forks/ruby-gets-input-v-000) 
+ ### [Greeting CLI Lab](forks/greeting-cli-v-000) 
+ ### [Tic Tac Toe Move](forks/ttt-5-move-rb-v-000) 
+ ## Section 6: Logic and Conditionals 
 ## Section 7: Loops 
 ## Section 8: Iteration 
 ## Section 9: Ruby Tic Tac Toe 

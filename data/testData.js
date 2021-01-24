@@ -76,8 +76,25 @@ const data = [
                     { title: "Display Tic Tac Toe Board", link: "ttt-4-display-board-rb-v-000", lab: true },
                 ]
             },
-            { id: 4, type: "section", title: "Command Line Applications", lessons: [] },
-            { id: 5, type: "section", title: "Logic and Conditionals", lessons: [] },
+            {
+                id: 4, type: "section", title: "Command Line Applications", lessons: [
+                    { title: "Intro to CLI Applications", link: "intro-to-cli-applications", lab: false },
+                    { title: "CLI Applications in Ruby", link: "ruby-cli-applications-readme", lab: false },
+                    { title: "gets CLI Input", link: "ruby-gets-input-v-000", lab: true },
+                    { title: "Greeting CLI Lab", link: "greeting-cli-v-000", lab: true },
+                    { title: "Tic Tac Toe Move", link: "ttt-5-move-rb-v-000", lab: true },
+                ]
+            },
+            {
+                id: 5, type: "section", title: "Logic and Conditionals", lessons: [
+                    { title: "Truthiness", link: "truthiness-in-ruby-readme", lab: false },
+                    { title: "Booleans", link: "booleans-ruby-readme", lab: false },
+                    { title: "About Ruby Conditionals", link: "conditional-readme", lab: false },
+                    { title: "Rspec Fizzbuzz", link: "rspec-fizzbuzz-v-000", lab: true },
+                    { title: "Tic Tac Toe Position Taken", link: "ttt-6-position-taken-rb-v-000", lab: true },
+                    { title: "Valid Tic Tac Toe Move", link: "ttt-7-valid-move-v-000", lab: true },
+                ]
+            },
             { id: 6, type: "section", title: "Loops", lessons: [] },
             { id: 7, type: "section", title: "Iteration", lessons: [] },
             { id: 8, type: "section", title: "Ruby Tic Tac Toe", lessons: [] },
