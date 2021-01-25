@@ -134,21 +134,101 @@ const data = [
                     { title: "Experiencing HTML Lab", link: "experiencing-html-lab-v-000", lab: true },
                 ]
             },
-            { id: 1, type: "section", title: "HTML Basics", lessons: [] },
-            { id: 2, type: "section", title: "CSS Basics", lessons: [] },
-            { id: 3, type: "section", title: "Transitioning Back to Ruby", lessons: [] },
+            {
+                id: 1, type: "section", title: "HTML Basics", lessons: [
+                    { title: "Crafting HTML Documents", link: "crafting-html-docs-readme", lab: false },
+                    { title: "HTML Introduction", link: "html-introduction-novideo", lab: false },
+                    { title: "First HTML Tag Lab", link: "first-html-tag-lab-v-000", lab: true },
+                    { title: "Well Formed HTML Document Lab", link: "well-formed-html-document-lab-v-000", lab: true },
+                    { title: "Nested Tags And Attributes", link: "nested-tags-and-attributes", lab: false },
+                    { title: "Anchor Tag with HREF Attribute Lab", link: "a-tag-with-href-attributes-lab-v-000", lab: true },
+                    { title: "HTML Elements Types Overview", link: "html-elements", lab: false },
+                    { title: "Researching HTML Elements", link: "researching-HTML-elements", lab: false },
+                ]
+            },
+            {
+                id: 2, type: "section", title: "CSS Basics", lessons: [
+                    { title: "Separation Of Content And Presentation", link: "separation-of-content-and-presentation", lab: false },
+                    { title: "Introduction to CSS", link: "introduction-to-css", lab: false },
+                    { title: "Introduction to CSS Lab", link: "introduction-to-css-lab-v-000", lab: true },
+                ]
+            },
+            {
+                id: 3, type: "section", title: "Transitioning Back to Ruby", lessons: [
+                    { title: "Transitioning Back to Ruby", link: "transitioning-back-to-ruby", lab: false },
+                ]
+            },
         ]
     },
     {
         id: 4, type: "module", title: "Proc Ruby", sections: [
-            { id: 0, type: "section", title: "[BONUS] Regex", lessons: [] },
-            { id: 1, type: "section", title: "Variables and Methods", lessons: [] },
-            { id: 2, type: "section", title: "Booleans", lessons: [] },
-            { id: 3, type: "section", title: "Logic and Conditionals", lessons: [] },
-            { id: 4, type: "section", title: "Looping", lessons: [] },
-            { id: 5, type: "section", title: "Arrays", lessons: [] },
-            { id: 6, type: "section", title: "Hashes", lessons: [] },
-            { id: 7, type: "section", title: "Data Structures", lessons: [] },
+            {
+                id: 0, type: "section", title: "[BONUS] Regex", lessons: [
+                    { title: "What's a Pattern", link: "regex-what-is-a-pattern", lab: false },
+                    { title: "Regex Basics", link: "regex-basics-readme", lab: false },
+                    { title: "Ruby Methods with Regex", link: "regex-match-scan-grep-methods-readme", lab: false },
+                    { title: "Regex Lab", link: "regex-lab-v-000", lab: true },
+                ]
+            },
+            {
+                id: 1, type: "section", title: "Variables and Methods", lessons: [
+                    { title: "About Variable Assignment", link: "variable-readme", lab: false },
+                    { title: "Variable Assignment Lab", link: "ruby-variable-assignment-v-000", lab: true },
+                    { title: "String Interpolation", link: "interpolation-readme", lab: false },
+                    { title: "Defining Methods", link: "ruby-methods-readme-v-000", lab: true },
+                    { title: "Methods and Arguments", link: "ruby-arguments-readme", lab: false },
+                    { title: "Methods and Arguments Lab", link: "method-arguments-lab-v-000", lab: true },
+                    { title: "Methods and Default Arguments", link: "methods-default-arguments", lab: false },
+                    { title: "Methods and Default Arguments Lab", link: "say-hello-ruby-v-000", lab: true },
+                    { title: "Return Values", link: "puts-print-and-return-readme", lab: false },
+                    { title: "Return Values Lab", link: "parrot-ruby-v-000", lab: true },
+                    { title: "Debugging with Pry", link: "debugging-with-pry-v-000", lab: true },
+                    { title: "Method Scope", link: "method-scope", lab: false },
+                    { title: "Method Scope Lab", link: "method-scope-lab-v-000", lab: true },
+                ]
+            },
+            {
+                id: 2, type: "section", title: "Booleans", lessons: [
+                    { title: "Booleans and Truthiness in Ruby", link: "truthiness-in-ruby-readme", lab: false },
+                    { title: "Boolean Operations", link: "booleans-ruby-readme", lab: false },
+                    { title: "Truthiness Code Challenge", link: "truthiness-code-challenge", lab: false },
+                ]
+            },
+            {
+                id: 3, type: "section", title: "Logic and Conditionals", lessons: [
+                    { title: "If Statements", link: "conditional-readme", lab: false },
+                    { title: "If Statements Lab", link: "speaking-grandma-v-000", lab: true },
+                    { title: "Ternary Operators and Statement Modifiers", link: "operators-v-000", lab: true },
+                    { title: "If Statements Quiz", link: "conditional-operators-quiz", lab: false },
+                    { title: "Case Statements", link: "case-statements-readme", lab: false },
+                    { title: "Case Statements Quiz", link: "case-statements-quiz", lab: false },
+                    { title: "Logic and Conditionals Quiz", link: "conditional-quiz-vowels", lab: false },
+                ]
+            },
+            {
+                id: 4, type: "section", title: "Looping", lessons: [
+                    { title: "Intro to Loops", link: "looping-introduction", lab: false },
+                    { title: "Looping", link: "looping-readme", lab: false },
+                    { title: "Looping Lab", link: "looping-loop", lab: true },
+                    { title: "Times", link: "looping-times-v-000", lab: true },
+                    { title: "Looping Quiz", link: "looping-quiz", lab: false },
+                    { title: "While and Until Loops", link: "while-and-until-looping-readme", lab: false },
+                    { title: "While and Until Loops Lab", link: "looping-while-until-v-000", lab: true },
+                    { title: "Countdown to Midnight Lab", link: "countdown-to-midnight-v-000", lab: true },
+                ]
+            },
+            {
+                id: 5, type: "section", title: "Arrays", lessons: [
+                    { title: "Intro to Arrays", link: "array-introduction", lab: false },
+                    { title: "Using Arrays", link: "array-readme", lab: false },
+                    { title: "Using Arrays Lab", link: "array-CRUD-lab-v-000", lab: true },
+                    { title: "Arrays and Methods", link: "array-methods-readme", lab: false },
+                    { title: "Arrays and Methods Lab", link: "array-methods-lab-v-000", lab: true },
+                ]
+            },
+            { id: 6, type: "section", title: "Iteration", lessons: [] },
+            { id: 7, type: "section", title: "Hashes", lessons: [] },
+            { id: 8, type: "section", title: "Data Structures", lessons: [] },
         ]
     },
     {
