@@ -153,8 +153,37 @@ const data = [
     { title: "Reverse Each Word Lab", link: "reverse-each-word-v-000", lab: true },
     { title: "Yield and Blocks", link: "yield-and-blocks-v-000", lab: true },
     { title: "Each Lab", link: "my-each-v-000", lab: true },
-
+    { title: "Return from Yield Statements", link: "yield-and-return-values-v-000", lab: true },
+    { title: "Collect Lab", link: "my-collect-v-000", lab: true },
+    { title: "Boolean Enumerators", link: "ruby-boolean-enumerables", lab: false },
+    { title: "Search Enumerators", link: "ruby-search-enumerables", lab: false },
+    { title: "My All? Lab", link: "my_all-v-000", lab: true },
+    { title: "My Find Lab", link: "my_find_code_along-v-000", lab: true },
+    { title: "Cartoon Collections Lab", link: "cartoon-collections-v-000", lab: true },
+    { title: "Enumerators Code Challenge", link: "enumerator-coding-challenge", lab: false },
+    { title: "Prime? Lab", link: "prime-ruby-v-000", lab: true },
+    { title: "Sorting", link: "sorting-readme", lab: false },
+    { title: "Sorting Lab", link: "collections_practice-v-000", lab: true },
+    ////
+    { title: "Introduction to Hashes", link: "hash-overview-readme", lab: false },
+    { title: "Using Hashes", link: "my-first-hash-v-000", lab: true },
+    { title: "Symbols", link: "ruby-symbols", lab: false },
+    { title: "Hash Iteration with Each", link: "hash-iteration-v-000", lab: true },
+    { title: "Hash Iteration with Collect", link: "hash-iteration-collect", lab: true },
+    { title: "Hash Iteration Lab", link: "key-for-min-value-v-000", lab: true },
+    ///
+    { title: "Intro to Nested Hashes", link: "nested-hashes-intro", lab: false },
+    { title: "Building Nested Hashes", link: "building-nested-hash-readme", lab: false },
+    { title: "Building Nested Hashes Lab", link: "building-nested-hashes-v-000", lab: true },
+    { title: "Nested Hashes Lab", link: "ruby-intro-to-hashes-lab-v-000", lab: true },
+    { title: "Multitype Collections Lab", link: "simple-nesting-v-000", lab: true },
+    { title: "Nested Hash Iteration", link: "nested-hash-iteration", lab: false },
+    { title: "Iterating over Nested Hashes Codealong", link: "nested-hash-iteration-code-along-v-000", lab: true },
+    { title: "Other Hashes Codealong", link: "other-hash-methods-code-along-v-000", lab: true },
+    { title: "Hashes Manipulation Lab", link: "apples-and-holidays-v-000", lab: true },
+    ////
     // OO Ruby6 first repo missing
+    { title: "Intro to Object Orientation", link: "uci-mod-3-introduction-to-object-orientation", lab: false },
     { title: "OO Ruby Video: Object Orientation Overview", link: "oo-ruby-video-object-orientation-overview", lab: false },
     //// classes/instances
     { title: "Intro to Classes and Instances", link: "ruby-intro-to-classes-and-instances", lab: false },
@@ -177,11 +206,43 @@ const data = [
     { title: "OO Basics with Class Constants", link: "oo-basics-with-class-constants-v-000", lab: true },
     { title: "OO School Domain", link: "school-domain-v-000", lab: true },
     ////
-    { title: "Intro to Object OrientationRuby", link: "intro-to-object-orientation-ruby", lab: false },
+    { title: "Intro to Object Orientation Ruby", link: "intro-to-object-orientation-ruby", lab: false },
     ////
     { title: "Self", link: "ruby-self-readme", lab: false },
     { title: "OO Counting Sentences", link: "oo-counting-sentences-v-000", lab: true },
-    //// obj lifecycle
+    //// 
+    { title: "Class Variables and Methods", link: "ruby-class-variables-and-class-methods-readme", lab: false },
+    { title: "Class Variables and Methods Lab", link: "ruby-class-variables-and-class-methods-lab-v-000", lab: true },
+    { title: "Private Methods", link: "ruby-public-private-methods-readme", lab: false },
+    ////
+    { title: "Remembering Objects", link: "ruby-remembering-objects-readme", lab: false },
+    { title: "Puppy Lab", link: "ruby-puppy-v-000", lab: true },
+    { title: "Advanced Class Methods", link: "ruby-advanced-class-methods-readme", lab: false },
+    { title: "Advanced Class Methods Lab", link: "ruby-advanced-class-methods-lab-v-000", lab: true },
+    { title: "Video Review: Object Models", link: "oo-ruby-video-review-object-models", lab: false },
+    ////
+    { title: "Procedural vs Object Oriented Ruby", link: "procedural-vs-oo-ruby", lab: false },
+    { title: "OO Tic Tac Toe", link: "oo-tic-tac-toe-v-000", lab: true },
+    ////
+    { title: "OO Email Parser", link: "oo-email-parser-v-000", lab: true },
+    { title: "OO Anagram Detector", link: "anagram-detector-v-000", lab: true },
+    { title: "OO Cash Register", link: "oo-cash-register-v-000", lab: true },
+    ////
+    { title: "Intro to Object Relationships", link: "ruby-intro-to-object-relationships-with-belongs-to", lab: false },
+    { title: "Belongs to Object Lab", link: "ruby-objects-belong-to-lab-v-000", lab: true },
+    { title: "Has Many Object", link: "ruby-objects-has-many-readme", lab: false },
+    { title: "Has Many Object Lab", link: "ruby-objects-has-many-lab-v-000", lab: true },
+    { title: "Collaborating Object", link: "ruby-collaborating-objects-readme", lab: false },
+    { title: "Collaborating Object Lab", link: "ruby-collaborating-objects-lab-v-000", lab: true },
+    { title: "Collaborating Objects Review", link: "collaborating-objects-review", lab: false },
+    { title: "OO My Pets", link: "oo-my-pets-v-000", lab: true },
+    { title: "OO Kickstarter", link: "oo-kickstarter-v-000", lab: true },
+    { title: "OO Banking", link: "oo-banking-v-000", lab: true },
+    { title: "Has Many Objects Through", link: "ruby-objects-has-many-through-readme-v-000", lab: true },
+    { title: "Has Many Objects Through Lab", link: "ruby-objects-has-many-through-lab-v-000", lab: true },
+    ////
+
+
     // SQL
     { title: "What is SQL", link: "sql-topic-introduction", lab: false },
     ////
