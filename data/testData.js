@@ -38,7 +38,7 @@ const data = [
         ]
     },
     {
-        id: 2, type: "module", title: "Intro to Ruby Dev", sections: [
+        id: 2, type: "module", title: "Intro to Ruby Development", sections: [
             {
                 id: 0, type: "section", title: "Intro to Programming", lessons: [
                     { title: "Intro to Tic Tac Toe", link: "intro-to-tic-tac-toe-rb", lab: false },
@@ -95,14 +95,45 @@ const data = [
                     { title: "Valid Tic Tac Toe Move", link: "ttt-7-valid-move-v-000", lab: true },
                 ]
             },
-            { id: 6, type: "section", title: "Loops", lessons: [] },
-            { id: 7, type: "section", title: "Iteration", lessons: [] },
-            { id: 8, type: "section", title: "Ruby Tic Tac Toe", lessons: [] },
+            {
+                id: 6, type: "section", title: "Loops", lessons: [
+                    { title: "Intro to Loops", link: "looping-introduction", lab: false },
+                    { title: "Loops", link: "looping-readme", lab: false },
+                    { title: "While and Until Loops", link: "while-and-until-looping-readme", lab: false },
+                    { title: "While and Until Loops Lab", link: "looping-while-until-v-000", lab: true },
+                    { title: "Tic Tac Toe Turn", link: "ttt-8-turn-v-000", lab: true },
+                    { title: "Tic Tac Toe Play Loop", link: "ttt-9-play-loop-v-000", lab: true },
+                ]
+            },
+            {
+                id: 7, type: "section", title: "Iteration", lessons: [
+                    { title: "Iteration and Abstraction", link: "iterators-and-abstraction-ruby", lab: false },
+                    { title: "Intro to Ruby Iterators", link: "intro-to-ruby-iterators", lab: false },
+                    { title: "Tic Tac Toe Current Player", link: "ttt-10-current-player-v-000", lab: true },
+                ]
+            },
+            {
+                id: 8, type: "section", title: "Ruby Tic Tac Toe", lessons: [
+                    { title: "Nested Arrays", link: "nested-arrays-ruby", lab: false },
+                    { title: "Boolean Enumerables", link: "ruby-boolean-enumerables", lab: false },
+                    { title: "Search Enumerables", link: "ruby-search-enumerators", lab: false },
+                    { title: "Tic Tac Toe Game Status", link: "ttt-game-status-v-000", lab: true },
+                    { title: "Tic Tac Toe in Ruby", link: "tic-tac-toe-rb-v-000", lab: true },
+                ]
+            },
         ]
     },
     {
         id: 3, type: "module", title: "Intro to HTML and CSS", sections: [
-            { id: 0, type: "section", title: "The Web and HTML", lessons: [] },
+            {
+                id: 0, type: "section", title: "The Web and HTML", lessons: [
+                    { title: "Transitioning from Ruby to HTML", link: "phrg-transitioning-from-ruby-to-html", lab: false },
+                    { title: "A Quick Tour of the Web", link: "a-quick-tour-of-the-web", lab: false },
+                    { title: "Welcome To HTML", link: "welcome-to-html-readme", lab: false },
+                    { title: "Files And Filetypes", link: "files-and-filetypes-readme", lab: false },
+                    { title: "Experiencing HTML Lab", link: "experiencing-html-lab-v-000", lab: true },
+                ]
+            },
             { id: 1, type: "section", title: "HTML Basics", lessons: [] },
             { id: 2, type: "section", title: "CSS Basics", lessons: [] },
             { id: 3, type: "section", title: "Transitioning Back to Ruby", lessons: [] },
