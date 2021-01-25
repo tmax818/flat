@@ -241,7 +241,28 @@ const data = [
     { title: "Has Many Objects Through", link: "ruby-objects-has-many-through-readme-v-000", lab: true },
     { title: "Has Many Objects Through Lab", link: "ruby-objects-has-many-through-lab-v-000", lab: true },
     ////
-
+    { title: "Intro to Inheritance", link: "oo-inheritance-code-along-v-000", lab: true },
+    { title: "Intro to Inheritance Lab", link: "ruby-inheritance-lab-v-000", lab: true },
+    { title: "Super", link: "ruby-super-inheritance-", lab: false },
+    { title: "Super Lab", link: "ruby-super-inheritance-lab-v-000", lab: true },
+    { title: "Intro to Modules", link: "modules-reading-v-000", lab: true },
+    { title: "Intro to Modules Lab", link: "artist-song-modules-v-000", lab: true },
+    ////
+    { title: "Mass Assignment", link: "keyword-args-mass-assignment", lab: false },
+    { title: "Mass Assignment and Metaprogramming", link: "mass-assignment-metaprogramming", lab: false },
+    { title: "Mass Assignment Lab", link: "mass-assignment-v-000", lab: true },
+    { title: "Custom Errors", link: "oo-custom-errors-v-000", lab: true },
+    { title: "OO Triangle", link: "triangle-classification-v-000", lab: true },
+    ////
+    { title: "Gems and Bundler", link: "using-bundler-v-000", lab: true },
+    { title: "Scraping", link: "scraping-reading-v-000", lab: true },
+    { title: "Scraping Lab", link: "scraping-flatiron-code-along-v-000", lab: true },
+    { title: "Kickstarter Scraping Lab", link: "scraping-kickstarter-v-000", lab: true },
+    { title: "Video Review: Object Orientation and Scraping", link: "oo-ruby-video-review-object-orientation-and-scraping", lab: false },
+    ////
+    { title: "OO Ruby Object Orientation Video Review", link: "oo-ruby-object-orientation-video-review", lab: false },
+    ////
+    { title: "Music Library CLI", link: "ruby-music-library-cli-v-000", lab: true },
 
     // SQL
     { title: "What is SQL", link: "sql-topic-introduction", lab: false },
