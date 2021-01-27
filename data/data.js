@@ -265,6 +265,9 @@ const data = [
     { title: "Music Library CLI", link: "ruby-music-library-cli-v-000", lab: true },
     { title: "[BONUS] Video Review: Music Library CLI", link: "oo-ruby-video-review-music-library-cli", lab: false },
     { title: "Tic-Tac-Toe with AI", link: "ttt-with-ai-project-v-000", lab: false },
+    { title: "Student Scraper", link: "oo-student-scraper-v-000", lab: true },
+    { title: "CLI Project Planning Resources", link: "cli-project-planning", lab: false },
+    { title: "CLI Data Gem Portfolio Project", link: "cli-data-gem-assessment-v-000", lab: true },
 
     // SQL
     { title: "What is SQL", link: "sql-topic-introduction", lab: false },
@@ -285,11 +288,29 @@ const data = [
     { title: "Mapping Classes to Tables Lab", link: "orm-mapping-to-table-lab-v-000", lab: true },
     { title: "Mapping Database Tables to Ruby Objects", link: "orm-mapping-db-to-ruby-object", lab: false },
     { title: "Mapping Database Rows to Objects Lab", link: "orm-mapping-db-to-ruby-object-lab-v-000", lab: true },
+    { title: "Updating Records in an ORM", link: "orm-updating-records", lab: false },
+    // Rack9
+    { title: "How the Internet Works", link: "how-the-web-works-readme", lab: false },
+    { title: "Increasing Layers of Abstraction", link: "why-layers-of-abstraction", lab: false },
+    { title: "Inspecting the Web with Rack", link: "rack-intro-v-000", lab: true },
+    { title: "Dynamic Web Apps with Rack", link: "rack-dynamic-web-apps-v-000", lab: true },
+    { title: "Rack Responses Lab", link: "rack-responses-lab-v-000", lab: true },
+    { title: "The HTTP Request", link: "rack-http-request-readme", lab: false },
 
 
     // Sinatra12
     { title: "What is Sinatra?", link: "what-is-sinatra", lab: false },
     { title: "Sinatra from Scratch", link: "sinatra-from-scratch-readme", lab: false },
+    { title: "Sinatra Basics", link: "sinatra-basics", lab: false },
+    { title: "Using the Shotgun Development Server", link: "sinatra-shotgun-server-v-000", lab: true },
+    { title: "Sinatra Hello World Lab", link: "sinatra-hello-world-basics-v-000", lab: true },
+    { title: "Sinatra Routes", link: "sinatra-routes-readme", lab: false },
+    { title: "Sinatra Basic Routes Lab", link: "sinatra-basic-routes-lab-v-000", lab: true },
+
+
+    // Rails13
+    { title: "Intro To Rails", link: "intro-to-rails", lab: false },
+    { title: "Rails Application Basics", link: "rails-application-basics-readme", lab: false },
 
 
     // React15
