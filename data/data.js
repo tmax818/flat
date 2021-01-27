@@ -263,6 +263,8 @@ const data = [
     { title: "OO Ruby Object Orientation Video Review", link: "oo-ruby-object-orientation-video-review", lab: false },
     ////
     { title: "Music Library CLI", link: "ruby-music-library-cli-v-000", lab: true },
+    { title: "[BONUS] Video Review: Music Library CLI", link: "oo-ruby-video-review-music-library-cli", lab: false },
+    { title: "Tic-Tac-Toe with AI", link: "ttt-with-ai-project-v-000", lab: false },
 
     // SQL
     { title: "What is SQL", link: "sql-topic-introduction", lab: false },
@@ -270,13 +272,55 @@ const data = [
     { title: "SQL Intro and Installation", link: "sql-intro-and-installation-readme", lab: false },
     { title: "SQL Database Basics", link: "sql-database-basics-readme", lab: false },
     { title: "SQL Databases and Text Editors", link: "sql-databases-and-text-editors-readme", lab: false },
+    { title: "SQL Data Types", link: "sql-sqlite-data-types-readme", lab: false },
+    { title: "SQL Inserting, Updating, and Selecting", link: "sql-insert-select-update-code-along", lab: false },
+    { title: "Basic SQL Queries", link: "sql-queries-basic-readme", lab: false },
+    { title: "SQL Aggregate Functions", link: "sql-aggregate-functions-readme", lab: false },
+    { title: "SQL Aggregate Functions Lab", link: "sql-aggregate-functions-lab-v-000", lab: true },
+    { title: "SQL Bear Organizer Lab", link: "SQL-bear-organizer-lab-v-000", lab: true },
 
     // ORMs and ActiveRecord8
     { title: "Why an ORM is Useful", link: "ruby-orm", lab: false },
+    { title: "Mapping Ruby Classes to Database Tables", link: "orm-mapping-to-tables", lab: false },
+    { title: "Mapping Classes to Tables Lab", link: "orm-mapping-to-table-lab-v-000", lab: true },
+    { title: "Mapping Database Tables to Ruby Objects", link: "orm-mapping-db-to-ruby-object", lab: false },
+    { title: "Mapping Database Rows to Objects Lab", link: "orm-mapping-db-to-ruby-object-lab-v-000", lab: true },
+
+
+    // Sinatra12
+    { title: "What is Sinatra?", link: "what-is-sinatra", lab: false },
+    { title: "Sinatra from Scratch", link: "sinatra-from-scratch-readme", lab: false },
 
 
     // React15
     { title: "Intro To Npm Readme", link: "intro-to-npm-readme", lab: false },
+    { title: "Npm Lab", link: "npm-lab-v-000", lab: true },
+    ////
+    { title: "This Is React Readme", link: "this-is-react-readme", lab: false },
+    { title: "A React App Example", link: "a-react-app-example-v-000", lab: true },
+    { title: "Some Useful Tools For Writing React", link: "some-useful-tools-for-writing-react", lab: false },
+    ////
+    { title: "React Components", link: "react-components", lab: false },
+    { title: "Static Components Lab", link: "react-static-components-lab-v-000", lab: true },
+    { title: "Dynamic Components", link: "react-dynamic-components", lab: false },
+    { title: "Dynamic Components Lab", link: "react-dynamic-components-lab-v-000", lab: true },
+    ////
+    { title: "Props", link: "react-props-readme", lab: false },
+    { title: "Props Lab", link: "react-props-movie-lab-v-000", lab: true },
+    { title: "Modular Code", link: "react-modular-code", lab: false },
+    { title: "Events Crash Course Readme", link: "react-events-crash-course-readme", lab: false },
+    { title: "Events Crash Course Lab", link: "react-events-crash-course-lab-v-000", lab: true },
+    { title: "State", link: "react-state-readme", lab: false },
+    { title: "React Simple State", link: "react-simple-state-lab-v-000", lab: true },
+    { title: "Slider State Lab", link: "react-initial-state-lab-v-000", lab: true },
+    { title: "Using Callbacks To Pass Information Lab", link: "react-using-callbacks-to-pass-information-lab-v-000", lab: true },
+    ////    
+    // Redux16
+    { title: "Why Redux", link: "why-redux", lab: false },
+
+    ////
+    { title: "React Redux Portfolio Project", link: "react-redux-assessment-v-000", lab: false },
+
 
 
 
