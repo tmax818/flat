@@ -18,7 +18,7 @@
  ### [Git Basics Quiz](forks/git-github-learn-quiz) 
  ## Section 3: Using Gems 
 ### [TDD Rspec And Learn](forks/intro-to-tdd-rspec-and-learn-v-000) 
- # Intro to Ruby Dev 
+ # Intro to Ruby Development 
 ## Section 1: Intro to Programming 
 ### [Intro to Tic Tac Toe](forks/intro-to-tic-tac-toe-rb) 
  ### [MINSWAN- Yukihuro Matsumoto](forks/matz-readme) 
@@ -51,41 +51,218 @@
  ### [Greeting CLI Lab](forks/greeting-cli-v-000) 
  ### [Tic Tac Toe Move](forks/ttt-5-move-rb-v-000) 
  ## Section 6: Logic and Conditionals 
-## Section 7: Loops 
-## Section 8: Iteration 
-## Section 9: Ruby Tic Tac Toe 
-# Intro to HTML and CSS 
+### [Truthiness](forks/truthiness-in-ruby-readme) 
+ ### [Booleans](forks/booleans-ruby-readme) 
+ ### [About Ruby Conditionals](forks/conditional-readme) 
+ ### [Rspec Fizzbuzz](forks/rspec-fizzbuzz-v-000) 
+ ### [Tic Tac Toe Position Taken](forks/ttt-6-position-taken-rb-v-000) 
+ ### [Valid Tic Tac Toe Move](forks/ttt-7-valid-move-v-000) 
+ ## Section 7: Loops 
+### [Intro to Loops](forks/looping-introduction) 
+ ### [Loops](forks/looping-readme) 
+ ### [While and Until Loops](forks/while-and-until-looping-readme) 
+ ### [While and Until Loops Lab](forks/looping-while-until-v-000) 
+ ### [Tic Tac Toe Turn](forks/ttt-8-turn-v-000) 
+ ### [Tic Tac Toe Play Loop](forks/ttt-9-play-loop-v-000) 
+ ## Section 8: Iteration 
+### [Iteration and Abstraction](forks/iterators-and-abstraction-ruby) 
+ ### [Intro to Ruby Iterators](forks/intro-to-ruby-iterators) 
+ ### [Tic Tac Toe Current Player](forks/ttt-10-current-player-v-000) 
+ ## Section 9: Ruby Tic Tac Toe 
+### [Nested Arrays](forks/nested-arrays-ruby) 
+ ### [Boolean Enumerables](forks/ruby-boolean-enumerables) 
+ ### [Search Enumerables](forks/ruby-search-enumerators) 
+ ### [Tic Tac Toe Game Status](forks/ttt-game-status-v-000) 
+ ### [Tic Tac Toe in Ruby](forks/tic-tac-toe-rb-v-000) 
+ # Intro to HTML and CSS 
 ## Section 1: The Web and HTML 
-## Section 2: HTML Basics 
-## Section 3: CSS Basics 
-## Section 4: Transitioning Back to Ruby 
-# Proc Ruby 
+### [Transitioning from Ruby to HTML](forks/phrg-transitioning-from-ruby-to-html) 
+ ### [A Quick Tour of the Web](forks/a-quick-tour-of-the-web) 
+ ### [Welcome To HTML](forks/welcome-to-html-readme) 
+ ### [Files And Filetypes](forks/files-and-filetypes-readme) 
+ ### [Experiencing HTML Lab](forks/experiencing-html-lab-v-000) 
+ ## Section 2: HTML Basics 
+### [Crafting HTML Documents](forks/crafting-html-docs-readme) 
+ ### [HTML Introduction](forks/html-introduction-novideo) 
+ ### [First HTML Tag Lab](forks/first-html-tag-lab-v-000) 
+ ### [Well Formed HTML Document Lab](forks/well-formed-html-document-lab-v-000) 
+ ### [Nested Tags And Attributes](forks/nested-tags-and-attributes) 
+ ### [Anchor Tag with HREF Attribute Lab](forks/a-tag-with-href-attributes-lab-v-000) 
+ ### [HTML Elements Types Overview](forks/html-elements) 
+ ### [Researching HTML Elements](forks/researching-HTML-elements) 
+ ## Section 3: CSS Basics 
+### [Separation Of Content And Presentation](forks/separation-of-content-and-presentation) 
+ ### [Introduction to CSS](forks/introduction-to-css) 
+ ### [Introduction to CSS Lab](forks/introduction-to-css-lab-v-000) 
+ ## Section 4: Transitioning Back to Ruby 
+### [Transitioning Back to Ruby](forks/transitioning-back-to-ruby) 
+ # Proc Ruby 
 ## Section 1: [BONUS] Regex 
-## Section 2: Variables and Methods 
-## Section 3: Booleans 
-## Section 4: Logic and Conditionals 
-## Section 5: Looping 
-## Section 6: Arrays 
-## Section 7: Hashes 
-## Section 8: Data Structures 
-# OO Ruby 
-## Section 1: Intro to OO 
-## Section 2: Classes and Instances 
-## Section 3: Instance Methods 
-## Section 4: Object Properties 
-## Section 5: Object Lifecycle 
-## Section 6: Object Orientation Review 
-## Section 7: Object's Self 
-## Section 8: Class Variables and Methods 
-## Section 9: Object Models 
-## Section 10: OO Tic Tac Toe 
-## Section 11: Object Labs 
-## Section 12: Object Relationships 
-## Section 13: Object Architecture 
-## Section 14: Metaprogramming 
-## Section 15: Scraping 
-## Section 16: Video Reviews of OO Ruby 
-## Section 17: Final Projects 
+### [What's a Pattern](forks/regex-what-is-a-pattern) 
+ ### [Regex Basics](forks/regex-basics-readme) 
+ ### [Ruby Methods with Regex](forks/regex-match-scan-grep-methods-readme) 
+ ### [Regex Lab](forks/regex-lab-v-000) 
+ ## Section 2: Variables and Methods 
+### [About Variable Assignment](forks/variable-readme) 
+ ### [Variable Assignment Lab](forks/ruby-variable-assignment-v-000) 
+ ### [String Interpolation](forks/interpolation-readme) 
+ ### [Defining Methods](forks/ruby-methods-readme-v-000) 
+ ### [Methods and Arguments](forks/ruby-arguments-readme) 
+ ### [Methods and Arguments Lab](forks/method-arguments-lab-v-000) 
+ ### [Methods and Default Arguments](forks/methods-default-arguments) 
+ ### [Methods and Default Arguments Lab](forks/say-hello-ruby-v-000) 
+ ### [Return Values](forks/puts-print-and-return-readme) 
+ ### [Return Values Lab](forks/parrot-ruby-v-000) 
+ ### [Debugging with Pry](forks/debugging-with-pry-v-000) 
+ ### [Method Scope](forks/method-scope) 
+ ### [Method Scope Lab](forks/method-scope-lab-v-000) 
+ ## Section 3: Booleans 
+### [Booleans and Truthiness in Ruby](forks/truthiness-in-ruby-readme) 
+ ### [Boolean Operations](forks/booleans-ruby-readme) 
+ ### [Truthiness Code Challenge](forks/truthiness-code-challenge) 
+ ## Section 4: Logic and Conditionals 
+### [If Statements](forks/conditional-readme) 
+ ### [If Statements Lab](forks/speaking-grandma-v-000) 
+ ### [Ternary Operators and Statement Modifiers](forks/operators-v-000) 
+ ### [If Statements Quiz](forks/conditional-operators-quiz) 
+ ### [Case Statements](forks/case-statements-readme) 
+ ### [Case Statements Quiz](forks/case-statements-quiz) 
+ ### [Logic and Conditionals Quiz](forks/conditional-quiz-vowels) 
+ ## Section 5: Looping 
+### [Intro to Loops](forks/looping-introduction) 
+ ### [Looping](forks/looping-readme) 
+ ### [Looping Lab](forks/looping-loop) 
+ ### [Times](forks/looping-times-v-000) 
+ ### [Looping Quiz](forks/looping-quiz) 
+ ### [While and Until Loops](forks/while-and-until-looping-readme) 
+ ### [While and Until Loops Lab](forks/looping-while-until-v-000) 
+ ### [Countdown to Midnight Lab](forks/countdown-to-midnight-v-000) 
+ ## Section 6: Arrays 
+### [Intro to Arrays](forks/array-introduction) 
+ ### [Using Arrays](forks/array-readme) 
+ ### [Using Arrays Lab](forks/array-CRUD-lab-v-000) 
+ ### [Arrays and Methods](forks/array-methods-readme) 
+ ### [Arrays and Methods Lab](forks/array-methods-lab-v-000) 
+ ## Section 7: Iteration 
+### [Iteration and Abstraction](forks/iterators-and-abstraction-ruby) 
+ ### [Intro to Ruby Iterators](forks/intro-to-ruby-iterators) 
+ ### [Square Array Lab](forks/square_array-v-000) 
+ ### [Badges and Schedules Lab](forks/badges-and-schedules-v-000) 
+ ### [Oxford Comma Lab](forks/oxford-comma-v-000) 
+ ### [Deli Counter Lab](forks/deli-counter-v-000) 
+ ### [Collect and Return Values](forks/each-vs-collect-readme) 
+ ### [Reverse Each Word Lab](forks/reverse-each-word-v-000) 
+ ### [Yield and Blocks](forks/yield-and-blocks-v-000) 
+ ### [Each Lab](forks/my-each-v-000) 
+ ### [Return from Yield Statements](forks/yield-and-return-values-v-000) 
+ ### [Collect Lab](forks/my-collect-v-000) 
+ ### [Boolean Enumerators](forks/ruby-boolean-enumerables) 
+ ### [Search Enumerators](forks/ruby-search-enumerables) 
+ ### [My All? Lab](forks/my_all-v-000) 
+ ### [My Find Lab](forks/my_find_code_along-v-000) 
+ ### [Cartoon Collections Lab](forks/cartoon-collections-v-000) 
+ ### [Enumerators Code Challenge](forks/enumerator-coding-challenge) 
+ ### [Prime? Lab](forks/prime-ruby-v-000) 
+ ### [Sorting](forks/sorting-readme) 
+ ### [Sorting Lab](forks/collections_practice-v-000) 
+ ## Section 8: Hashes 
+### [Introduction to Hashes](forks/hash-overview-readme) 
+ ### [Using Hashes](forks/my-first-hash-v-000) 
+ ### [Symbols](forks/ruby-symbols) 
+ ### [Hash Iteration with Each](forks/hash-iteration-v-000) 
+ ### [Hash Iteration with Collect](forks/hash-iteration-collect) 
+ ### [Hash Iteration Lab](forks/key-for-min-value-v-000) 
+ ## Section 9: Data Structures 
+### [Intro to Nested Hashes](forks/nested-hashes-intro) 
+ ### [Building Nested Hashes](forks/building-nested-hash-readme) 
+ ### [Building Nested Hashes Lab](forks/building-nested-hashes-v-000) 
+ ### [Nested Hashes Lab](forks/ruby-intro-to-hashes-lab-v-000) 
+ ### [Multitype Collections Lab](forks/simple-nesting-v-000) 
+ ### [Nested Hash Iteration](forks/nested-hash-iteration) 
+ ### [Iterating over Nested Hashes Codealong](forks/nested-hash-iteration-code-along-v-000) 
+ ### [Other Hashes Codealong](forks/other-hash-methods-code-along-v-000) 
+ ### [Hashes Manipulation Lab](forks/apples-and-holidays-v-000) 
+ # Object Oriented Ruby 
+## Section 1: Intro to Object Oriented Ruby 
+### [Intro to Object Orientation](forks/uci-mod-3-introduction-to-object-orientation) 
+ ### [OO Ruby Video: Object Orientation Overview](forks/oo-ruby-video-object-orientation-overview) 
+ ## Section 2: Classes and Instances 
+### [Intro to Classes and Instances](forks/ruby-intro-to-classes-and-instances) 
+ ### [Classes and Instances Lab](forks/classes-and-instances-lab-ruby-v-000) 
+ ## Section 3: Instance Methods 
+### [Instance Methods](forks/instance-methods-readme-ruby) 
+ ### [Instance Methods Lab](forks/instance-methods-lab-ruby-v-000) 
+ ## Section 4: Object Properties 
+### [Instance Variables](forks/ruby-instance-variables-lab-v-000) 
+ ### [Barking Dog Lab](forks/oo-barking-dog-v-000) 
+ ### [Object Attributes](forks/ruby-object-attrs-readme) 
+ ### [Object Attributes Lab](forks/ruby-object-attributes-lab-v-000) 
+ ### [Object Accessors](forks/ruby-oo-macros-readme) 
+ ### [Meowing Cat](forks/oo-meowing-cat-v-000) 
+ ### [Video Review: Object Properties](forks/oo-ruby-video-review-object-properties) 
+ ## Section 5: Object Lifecycle 
+### [Object Initialization](forks/ruby-initialization) 
+ ### [Object Initialization Lab](forks/ruby-object-initialize-lab-v-000) 
+ ### [OO Basics](forks/oo-basics-v-000) 
+ ### [OO Basics with Class Constants](forks/oo-basics-with-class-constants-v-000) 
+ ### [OO School Domain](forks/school-domain-v-000) 
+ ## Section 6: Object Orientation Review 
+### [Intro to Object Orientation Ruby](forks/intro-to-object-orientation-ruby) 
+ ## Section 7: Object's Self 
+### [Self](forks/ruby-self-readme) 
+ ### [OO Counting Sentences](forks/oo-counting-sentences-v-000) 
+ ## Section 8: Class Variables and Methods 
+### [Class Variables and Methods](forks/ruby-class-variables-and-class-methods-readme) 
+ ### [Class Variables and Methods Lab](forks/ruby-class-variables-and-class-methods-lab-v-000) 
+ ### [Private Methods](forks/ruby-public-private-methods-readme) 
+ ## Section 9: Object Models 
+### [Remembering Objects](forks/ruby-remembering-objects-readme) 
+ ### [Puppy Lab](forks/ruby-puppy-v-000) 
+ ### [Advanced Class Methods](forks/ruby-advanced-class-methods-readme) 
+ ### [Advanced Class Methods Lab](forks/ruby-advanced-class-methods-lab-v-000) 
+ ### [Video Review: Object Models](forks/oo-ruby-video-review-object-models) 
+ ## Section 10: OO Tic Tac Toe 
+### [Procedural vs Object Oriented Ruby](forks/procedural-vs-oo-ruby) 
+ ### [OO Tic Tac Toe](forks/oo-tic-tac-toe-v-000) 
+ ## Section 11: Object Labs 
+### [OO Email Parser](forks/oo-email-parser-v-000) 
+ ### [OO Anagram Detector](forks/anagram-detector-v-000) 
+ ### [OO Cash Register](forks/oo-cash-register-v-000) 
+ ## Section 12: Object Relationships 
+### [Intro to Object Relationships](forks/ruby-intro-to-object-relationships-with-belongs-to) 
+ ### [Belongs to Object Lab](forks/ruby-objects-belong-to-lab-v-000) 
+ ### [Has Many Object](forks/ruby-objects-has-many-readme) 
+ ### [Has Many Object Lab](forks/ruby-objects-has-many-lab-v-000) 
+ ### [Collaborating Object](forks/ruby-collaborating-objects-readme) 
+ ### [Collaborating Object Lab](forks/ruby-collaborating-objects-lab-v-000) 
+ ### [Collaborating Objects Review](forks/collaborating-objects-review) 
+ ### [OO My Pets](forks/oo-my-pets-v-000) 
+ ### [OO Kickstarter](forks/oo-kickstarter-v-000) 
+ ### [OO Banking](forks/oo-banking-v-000) 
+ ### [Has Many Objects Through](forks/ruby-objects-has-many-through-readme-v-000) 
+ ### [Has Many Objects Through Lab](forks/ruby-objects-has-many-through-lab-v-000) 
+ ## Section 13: Object Architecture 
+### [Intro to Inheritance](forks/oo-inheritance-code-along-v-000) 
+ ### [Intro to Inheritance Lab](forks/ruby-inheritance-lab-v-000) 
+ ### [Super](forks/ruby-super-inheritance-) 
+ ### [Super Lab](forks/ruby-super-inheritance-lab-v-000) 
+ ### [Intro to Modules](forks/modules-reading-v-000) 
+ ### [Intro to Modules Lab](forks/artist-song-modules-v-000) 
+ ## Section 14: Metaprogramming 
+### [Mass Assignment](forks/keyword-args-mass-assignment) 
+ ### [Mass Assignment and Metaprogramming](forks/mass-assignment-metaprogramming) 
+ ### [Mass Assignment Lab](forks/mass-assignment-v-000) 
+ ### [Custom Errors](forks/oo-custom-errors-v-000) 
+ ### [OO Triangle](forks/triangle-classification-v-000) 
+ ## Section 15: Scraping 
+### [Gems and Bundler](forks/using-bundler-v-000) 
+ ### [Scraping](forks/scraping-reading-v-000) 
+ ### [Scraping Lab](forks/scraping-flatiron-code-along-v-000) 
+ ### [Kickstarter Scraping Lab](forks/scraping-kickstarter-v-000) 
+ ### [Video Review: Object Orientation and Scraping](forks/oo-ruby-video-review-object-orientation-and-scraping) 
+ ## Section 16: Video Reviews of OO Ruby 
+### [OO Ruby Object Orientation Video Review](forks/oo-ruby-object-orientation-video-review) 
+ ## Section 17: Final Projects 
 # SQL 
 ## Section 1: Topic Introduction 
 ## Section 2: Getting Started 
