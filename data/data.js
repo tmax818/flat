@@ -168,7 +168,7 @@ const data = [
     { title: "Using Hashes", link: "my-first-hash-v-000", lab: true },
     { title: "Symbols", link: "ruby-symbols", lab: false },
     { title: "Hash Iteration with Each", link: "hash-iteration-v-000", lab: true },
-    { title: "Hash Iteration with Collect", link: "hash-iteration-collect", lab: true },
+    { title: "Hash Iteration with Collect", link: "hash-iteration-collect", lab: false },
     { title: "Hash Iteration Lab", link: "key-for-min-value-v-000", lab: true },
     ///
     { title: "Intro to Nested Hashes", link: "nested-hashes-intro", lab: false },
@@ -263,7 +263,7 @@ const data = [
     ////
     { title: "Music Library CLI", link: "ruby-music-library-cli-v-000", lab: true },
     { title: "[BONUS] Video Review: Music Library CLI", link: "oo-ruby-video-review-music-library-cli", lab: false },
-    { title: "Tic-Tac-Toe with AI", link: "ttt-with-ai-project-v-000", lab: false },
+    { title: "Tic-Tac-Toe with AI", link: "ttt-with-ai-project-v-000", lab: true },
     { title: "Student Scraper", link: "oo-student-scraper-v-000", lab: true },
     { title: "CLI Project Planning Resources", link: "cli-project-planning", lab: false },
     { title: "CLI Data Gem Portfolio Project", link: "cli-data-gem-assessment-v-000", lab: true },
@@ -406,7 +406,7 @@ const data = [
     { title: "Event System Lab", link: "react-event-system-lab-v-000", lab: true },
     { title: "Events In Detail", link: "react-events-in-detail", lab: false },
     { title: "Events In Detail Lab", link: "react-events-in-detail-lab-v-000", lab: true },
-    { title: "Updating State", link: "react-updating-state-v-000", lab: false },
+    { title: "Updating State", link: "react-updating-state-v-000", lab: true },
     { title: "Updating State Lab", link: "react-updating-state-lab-v-000", lab: true },
     ////
     { title: "Forms", link: "react-forms-v-000", lab: true },
@@ -424,7 +424,7 @@ const data = [
     { title: "Why Redux", link: "why-redux", lab: false },
 
     ////
-    { title: "React Redux Portfolio Project", link: "react-redux-assessment-v-000", lab: false },
+    { title: "React Redux Portfolio Project", link: "react-redux-assessment-v-000", lab: true },
 
 
 
