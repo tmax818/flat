@@ -562,13 +562,68 @@ const data = [
     },
     {
         id: 14, type: "module", title: "React", sections: [
-            { id: 0, type: "section", title: "Node Package Manager", lessons: [] },
-            { id: 1, type: "section", title: "Introduction to React", lessons: [] },
-            { id: 2, type: "section", title: "Introduction to Components", lessons: [] },
-            { id: 3, type: "section", title: "Props and State", lessons: [] },
-            { id: 4, type: "section", title: "Events", lessons: [] },
-            { id: 5, type: "section", title: "Forms", lessons: [] },
-            { id: 6, type: "section", title: "Lifecycle Methods", lessons: [] },
+            {
+                id: 0, type: "section", title: "Node Package Manager", lessons: [
+                    { title: "Intro To Npm Readme", link: "intro-to-npm-readme", lab: false },
+                    { title: "Npm Lab", link: "npm-lab-v-000", lab: true },
+                ]
+            },
+            {
+                id: 1, type: "section", title: "Introduction to React", lessons: [
+                    { title: "This Is React Readme", link: "this-is-react-readme", lab: false },
+                    { title: "A React App Example", link: "a-react-app-example-v-000", lab: true },
+                    { title: "Some Useful Tools For Writing React", link: "some-useful-tools-for-writing-react", lab: false },
+                ]
+            },
+            {
+                id: 2, type: "section", title: "Introduction to Components", lessons: [
+                    { title: "React Components", link: "react-components", lab: false },
+                    { title: "Static Components Lab", link: "react-static-components-lab-v-000", lab: true },
+                    { title: "Dynamic Components", link: "react-dynamic-components", lab: false },
+                    { title: "Dynamic Components Lab", link: "react-dynamic-components-lab-v-000", lab: true },
+                ]
+            },
+            {
+                id: 3, type: "section", title: "Props and State", lessons: [
+                    { title: "Props", link: "react-props-readme", lab: false },
+                    { title: "Props Lab", link: "react-props-movie-lab-v-000", lab: true },
+                    { title: "Modular Code", link: "react-modular-code", lab: false },
+                    { title: "Events Crash Course Readme", link: "react-events-crash-course-readme", lab: false },
+                    { title: "Events Crash Course Lab", link: "react-events-crash-course-lab-v-000", lab: true },
+                    { title: "State", link: "react-state-readme", lab: false },
+                    { title: "React Simple State", link: "react-simple-state-lab-v-000", lab: true },
+                    { title: "Slider State Lab", link: "react-initial-state-lab-v-000", lab: true },
+                    { title: "Using Callbacks To Pass Information Lab", link: "react-using-callbacks-to-pass-information-lab-v-000", lab: true },
+                ]
+            },
+            {
+                id: 4, type: "section", title: "Events", lessons: [
+                    { title: "React Event System", link: "react-event-system", lab: false },
+                    { title: "Event System Lab", link: "react-event-system-lab-v-000", lab: true },
+                    { title: "Events In Detail", link: "react-events-in-detail", lab: false },
+                    { title: "Events In Detail Lab", link: "react-events-in-detail-lab-v-000", lab: true },
+                    { title: "Updating State", link: "react-updating-state-v-000", lab: false },
+                    { title: "Updating State Lab", link: "react-updating-state-lab-v-000", lab: true },
+                ]
+            },
+            {
+                id: 5, type: "section", title: "Forms", lessons: [
+                    { title: "Forms", link: "react-forms-v-000", lab: true },
+                    { title: "Forms Lab", link: "react-forms-lab-v-000", lab: true },
+                    { title: "Props, State, and Events Lab", link: "react-props-and-state-lab-v-000", lab: true },
+                ]
+            },
+            {
+                id: 6, type: "section", title: "Lifecycle Methods", lessons: [
+                    { title: "React Component Lifecycle Overview", link: "react-component-lifecycle-overview", lab: false },
+                    { title: "Component Mounting and Unmounting Readme", link: "react-component-mounting-lifecycle-readme", lab: false },
+                    { title: "Component Mounting LabMultiTimer App", link: "react-component-mounting-lab-v-000", lab: true },
+                    { title: "Component Mounting LabPancake Flipper", link: "react-component-mounting-and-unmounting-lab-v-000", lab: true },
+                    { title: "Update Lifecycle Readme", link: "react-update-lifecycle-readme", lab: false },
+                    { title: "Component Updating Lab", link: "react-component-updating-lab-v-000", lab: true },
+
+                ]
+            },
             { id: 7, type: "section", title: "Async React", lessons: [] },
             { id: 8, type: "section", title: "Advanced Components", lessons: [] },
             { id: 9, type: "section", title: "React: Under the Hood", lessons: [] },
