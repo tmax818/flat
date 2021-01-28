@@ -281,6 +281,16 @@ const data = [
     { title: "SQL Aggregate Functions", link: "sql-aggregate-functions-readme", lab: false },
     { title: "SQL Aggregate Functions Lab", link: "sql-aggregate-functions-lab-v-000", lab: true },
     { title: "SQL Bear Organizer Lab", link: "SQL-bear-organizer-lab-v-000", lab: true },
+    ////
+    { title: "Edgar Codd and Table Relations", link: "sql-relational-databases-readme", lab: false },
+    { title: "Table Relations", link: "sql-table-relations-readme", lab: false },
+    { title: "SQL JOINS", link: "sql-joins-readme", lab: false },
+    { title: "SQL Complex Joins", link: "sql-complex-joins-readme", lab: false },
+    { title: "SQL Joins Tables", link: "sql-join-tables-readme", lab: false },
+    { title: "Grouping and Sorting Data", link: "sql-grouping-and-sorting-readme", lab: false },
+    { title: "SQL Joins Review Lectures", link: "sql-joins-review-lectures", lab: false },
+    { title: "SQL Crowdfunding Lab", link: "sql-crowdfunding-lab-v-000", lab: true },
+
 
     // ORMs and ActiveRecord8
     { title: "Why an ORM is Useful", link: "ruby-orm", lab: false },
@@ -289,6 +299,9 @@ const data = [
     { title: "Mapping Database Tables to Ruby Objects", link: "orm-mapping-db-to-ruby-object", lab: false },
     { title: "Mapping Database Rows to Objects Lab", link: "orm-mapping-db-to-ruby-object-lab-v-000", lab: true },
     { title: "Updating Records in an ORM", link: "orm-updating-records", lab: false },
+    { title: "Updating Records in an ORM Lab", link: "orm-update-lab-v-000", lab: true },
+    { title: "Pokemon Scraper Lab", link: "pokemon-scraper-v-000", lab: true },
+
     // Rack9
     { title: "How the Internet Works", link: "how-the-web-works-readme", lab: false },
     { title: "Increasing Layers of Abstraction", link: "why-layers-of-abstraction", lab: false },
@@ -296,6 +309,12 @@ const data = [
     { title: "Dynamic Web Apps with Rack", link: "rack-dynamic-web-apps-v-000", lab: true },
     { title: "Rack Responses Lab", link: "rack-responses-lab-v-000", lab: true },
     { title: "The HTTP Request", link: "rack-http-request-readme", lab: false },
+    { title: "Rack Routes and GET Params Lab", link: "rack-get-params-lab-v-000", lab: true },
+    { title: "Dynamic URL Routes", link: "rack-dynamic-paths-readme", lab: false },
+    { title: "Rack Video Review How The Web Works Pt 1", link: "rack-video-review-how-the-web-works-pt-1", lab: false },
+    { title: "Rack Video Review How The Web Works Pt 2", link: "rack-video-review-how-the-web-works-pt-2", lab: false },
+    { title: "HTTP Status Codes", link: "rack-status-codes-readme", lab: false },
+    { title: "Dynamic URLs and Status Codes Lab", link: "rack-dynamic-routes-lab-v-000", lab: true },
 
 
     // Sinatra12
@@ -306,12 +325,26 @@ const data = [
     { title: "Sinatra Hello World Lab", link: "sinatra-hello-world-basics-v-000", lab: true },
     { title: "Sinatra Routes", link: "sinatra-routes-readme", lab: false },
     { title: "Sinatra Basic Routes Lab", link: "sinatra-basic-routes-lab-v-000", lab: true },
-
+    ////
+    { title: "Intro to MVC", link: "sinatra-intro-to-mvc", lab: false },
+    { title: "Sinatra MVC File Structure", link: "sinatra-mvc-file-structure-v-000", lab: true },
 
     // Rails13
     { title: "Intro To Rails", link: "intro-to-rails", lab: false },
     { title: "Rails Application Basics", link: "rails-application-basics-readme", lab: false },
-
+    { title: "Rails MVC", link: "rails-model-view-controller-readme", lab: false },
+    { title: "Rails Static Request", link: "rails-static-request-readme-v-000", lab: true },
+    { title: "Rails Hello World", link: "rails-hello-world-lab-v-000", lab: true },
+    { title: "Video Review: Intro to Rails", link: "rails-video-review-intro-to-rails", lab: false },
+    ////
+    { title: "ActiveRecord Models and Rails", link: "rails-activerecord-models-and-rails-readme-v-000", lab: true },
+    { title: "ActiveRecord Models and Rails Lab", link: "rails-activerecord-model-rails-lab-v-000", lab: true },
+    ////
+    { title: "Intro to REST", link: "rails-intro-to-rest", lab: false },
+    { title: "RESTful Action Index Lab", link: "rails-restful-index-action-lab-v-000", lab: true },
+    { title: "Rails Dynamic Request", link: "rails-dynamic-request-readme-v-000", lab: true },
+    { title: "Rails Dynamic Request Lab", link: "rails-dynamic-request-lab-v-000", lab: true },
+    ////
 
     // React15
     { title: "Intro To Npm Readme", link: "intro-to-npm-readme", lab: false },
@@ -336,6 +369,12 @@ const data = [
     { title: "Slider State Lab", link: "react-initial-state-lab-v-000", lab: true },
     { title: "Using Callbacks To Pass Information Lab", link: "react-using-callbacks-to-pass-information-lab-v-000", lab: true },
     ////    
+    { title: "React Event System", link: "react-event-system", lab: false },
+    { title: "Event System Lab", link: "react-event-system-lab-v-000", lab: true },
+    { title: "Events In Detail", link: "react-events-in-detail", lab: false },
+    { title: "Events In Detail Lab", link: "react-events-in-detail-lab-v-000", lab: true },
+    { title: "Updating State", link: "react-updating-state-v-000", lab: false },
+    { title: "Updating State Lab", link: "react-updating-state-lab-v-000", lab: true },
     // Redux16
     { title: "Why Redux", link: "why-redux", lab: false },
 
