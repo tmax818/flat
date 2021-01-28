@@ -4,7 +4,6 @@ const data = [
     { title: "Welcome To Learn", link: "welcome-to-learn-verified", lab: false, readCount: 0 },
     { title: "Navigating Curriculum On Learn", link: "prework-intro-navigating-curriculum-on-learn-ide", lab: false },
     { title: "Ask A Question", link: "prework-intro-ask-a-question", lab: false },
-
     /// Git GitHub2
     { title: "Introduction To Version Control", link: "git-version-control-introduction-to-version-control", lab: false },
     { title: "Version Control Basics", link: "git-version-control-git-basics", lab: false },
@@ -301,6 +300,23 @@ const data = [
     { title: "Updating Records in an ORM", link: "orm-updating-records", lab: false },
     { title: "Updating Records in an ORM Lab", link: "orm-update-lab-v-000", lab: true },
     { title: "Pokemon Scraper Lab", link: "pokemon-scraper-v-000", lab: true },
+    { title: "Preventing Record Duplication", link: "orm-find-or-create-by", lab: false },
+    { title: "ORMs Lab: Bringing It All Together", link: "bringing-it-all-together-v-000", lab: true },
+    { title: "Dynamic ORMs", link: "dynamic-orms-readme-v-000", lab: true },
+    { title: "Dynamic ORMs with Inheritance", link: "dynamic-orm-inheritance-v-000", lab: true },
+    { title: "Video Review: ORMs and SQL Joins", link: "orm-video-review-orms-and-sql-joins", lab: false },
+    { title: "Dynamic ORM Lab", link: "dynamic-orm-lab-v-000", lab: true },
+    { title: "Video Review: Building a Metaprogrammed Abstract ORM- Overview", link: "orm-video-review-building-a-metaprogrammed-abstract-orm", lab: false },
+    { title: "Video Review: Codealong, Building a Room Scraper and ORM- Overview", link: "orm-video-review-codealong-building-a-room-scraper-and-orm", lab: false },
+    ////
+    { title: "ActiveRecord Mechanics", link: "active-record-mechanics-crud", lab: false },
+    { title: "Translating from ORM to ActiveRecord", link: "translating-orm-to-ar-v-000", lab: true },
+    { title: "Intro to Rake", link: "intro-to-rake-v-000", lab: true },
+    { title: "Mechanics of Migrations", link: "mechanics-of-migrations-v-000", lab: true },
+    { title: "Writing Our Own Migrations", link: "writing-migrations-v-000", lab: true },
+    { title: "Migrations and ActiveRecord Lab", link: "activerecord-costume-store-todo-v-000", lab: true },
+    { title: "ActiveRecord CRUD Lab", link: "activerecord-crud-v-000", lab: true },
+    { title: "Advanced Finding Lab", link: "activerecord-tvshow-v-000", lab: true },
 
     // Rack9
     { title: "How the Internet Works", link: "how-the-web-works-readme", lab: false },
@@ -315,6 +331,9 @@ const data = [
     { title: "Rack Video Review How The Web Works Pt 2", link: "rack-video-review-how-the-web-works-pt-2", lab: false },
     { title: "HTTP Status Codes", link: "rack-status-codes-readme", lab: false },
     { title: "Dynamic URLs and Status Codes Lab", link: "rack-dynamic-routes-lab-v-000", lab: true },
+    //HTML10
+    { title: "HTML Fundamentals", link: "html-fundamentals", lab: false },
+
 
 
     // Sinatra12
@@ -345,6 +364,20 @@ const data = [
     { title: "Rails Dynamic Request", link: "rails-dynamic-request-readme-v-000", lab: true },
     { title: "Rails Dynamic Request Lab", link: "rails-dynamic-request-lab-v-000", lab: true },
     ////
+    { title: "Rails URL Helpers", link: "rails-url-helpers-readme-v-000", lab: true },
+    { title: "Rails URL Helpers Lab", link: "rails-url-helpers-lab-v-000", lab: true },
+    { title: "Rails form_tag", link: "rails-form_tag-readme-v-000", lab: true },
+    { title: "Rails form_tag Lab", link: "rails-form_tag-lab-v-000", lab: true },
+
+
+
+    //FrontEnd14
+    { title: "Demonstrate Front-End Web Programming Example", link: "fewpjs-fewp-example", lab: false },
+    { title: "Stitching Together The Three Pillars", link: "fewpjs-stitching-together-the-three-pillars-new-v-000", lab: true },
+    ////
+    { title: "Introducing the DOM and Just Enough JavaScrip...", link: "fewpjs-introducing-the-dom-and-just-enough-javascript", lab: false },
+    { title: "Introduction to the DOM To Get Started", link: "fewpjs-introduction-to-the-dom-to-get-started", lab: false },
+    { title: "DOM Editing Lab", link: "fewpjs-dom-editing-lab-v-000", lab: true },
 
     // React15
     { title: "Intro To Npm Readme", link: "intro-to-npm-readme", lab: false },
@@ -375,6 +408,18 @@ const data = [
     { title: "Events In Detail Lab", link: "react-events-in-detail-lab-v-000", lab: true },
     { title: "Updating State", link: "react-updating-state-v-000", lab: false },
     { title: "Updating State Lab", link: "react-updating-state-lab-v-000", lab: true },
+    ////
+    { title: "Forms", link: "react-forms-v-000", lab: true },
+    { title: "Forms Lab", link: "react-forms-lab-v-000", lab: true },
+    { title: "Props, State, and Events Lab", link: "react-props-and-state-lab-v-000", lab: true },
+    ////
+    { title: "React Component Lifecycle Overview", link: "react-component-lifecycle-overview", lab: false },
+    { title: "Component Mounting and Unmounting Readme", link: "react-component-mounting-lifecycle-readme", lab: false },
+    { title: "Component Mounting LabMultiTimer App", link: "react-component-mounting-lab-v-000", lab: true },
+    { title: "Component Mounting LabPancake Flipper", link: "react-component-mounting-and-unmounting-lab-v-000", lab: true },
+    { title: "Update Lifecycle Readme", link: "react-update-lifecycle-readme", lab: false },
+    { title: "Component Updating Lab", link: "react-component-updating-lab-v-000", lab: true },
+
     // Redux16
     { title: "Why Redux", link: "why-redux", lab: false },
 

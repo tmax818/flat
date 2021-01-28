@@ -410,9 +410,36 @@ const data = [
     },
     {
         id: 6, type: "module", title: "SQL", sections: [
-            { id: 0, type: "section", title: "Topic Introduction", lessons: [] },
-            { id: 1, type: "section", title: "Getting Started", lessons: [] },
-            { id: 2, type: "section", title: "Table Relations", lessons: [] },
+            {
+                id: 0, type: "section", title: "Topic Introduction", lessons: [
+                    { title: "What is SQL", link: "sql-topic-introduction", lab: false },
+                ]
+            },
+            {
+                id: 1, type: "section", title: "Getting Started", lessons: [
+                    { title: "SQL Intro and Installation", link: "sql-intro-and-installation-readme", lab: false },
+                    { title: "SQL Database Basics", link: "sql-database-basics-readme", lab: false },
+                    { title: "SQL Databases and Text Editors", link: "sql-databases-and-text-editors-readme", lab: false },
+                    { title: "SQL Data Types", link: "sql-sqlite-data-types-readme", lab: false },
+                    { title: "SQL Inserting, Updating, and Selecting", link: "sql-insert-select-update-code-along", lab: false },
+                    { title: "Basic SQL Queries", link: "sql-queries-basic-readme", lab: false },
+                    { title: "SQL Aggregate Functions", link: "sql-aggregate-functions-readme", lab: false },
+                    { title: "SQL Aggregate Functions Lab", link: "sql-aggregate-functions-lab-v-000", lab: true },
+                    { title: "SQL Bear Organizer Lab", link: "SQL-bear-organizer-lab-v-000", lab: true },
+                ]
+            },
+            {
+                id: 2, type: "section", title: "Table Relations", lessons: [
+                    { title: "Edgar Codd and Table Relations", link: "sql-relational-databases-readme", lab: false },
+                    { title: "Table Relations", link: "sql-table-relations-readme", lab: false },
+                    { title: "SQL JOINS", link: "sql-joins-readme", lab: false },
+                    { title: "SQL Complex Joins", link: "sql-complex-joins-readme", lab: false },
+                    { title: "SQL Joins Tables", link: "sql-join-tables-readme", lab: false },
+                    { title: "Grouping and Sorting Data", link: "sql-grouping-and-sorting-readme", lab: false },
+                    { title: "SQL Joins Review Lectures", link: "sql-joins-review-lectures", lab: false },
+                    { title: "SQL Crowdfunding Lab", link: "sql-crowdfunding-lab-v-000", lab: true },
+                ]
+            },
         ]
     },
     {
@@ -424,7 +451,22 @@ const data = [
     },
     {
         id: 8, type: "module", title: "Rack", sections: [
-            { id: 0, type: "section", title: "Rack and the Internet", lessons: [] }
+            {
+                id: 0, type: "section", title: "Rack and the Internet", lessons: [
+                    { title: "How the Internet Works", link: "how-the-web-works-readme", lab: false },
+                    { title: "Increasing Layers of Abstraction", link: "why-layers-of-abstraction", lab: false },
+                    { title: "Inspecting the Web with Rack", link: "rack-intro-v-000", lab: true },
+                    { title: "Dynamic Web Apps with Rack", link: "rack-dynamic-web-apps-v-000", lab: true },
+                    { title: "Rack Responses Lab", link: "rack-responses-lab-v-000", lab: true },
+                    { title: "The HTTP Request", link: "rack-http-request-readme", lab: false },
+                    { title: "Rack Routes and GET Params Lab", link: "rack-get-params-lab-v-000", lab: true },
+                    { title: "Dynamic URL Routes", link: "rack-dynamic-paths-readme", lab: false },
+                    { title: "Rack Video Review How The Web Works Pt 1", link: "rack-video-review-how-the-web-works-pt-1", lab: false },
+                    { title: "Rack Video Review How The Web Works Pt 2", link: "rack-video-review-how-the-web-works-pt-2", lab: false },
+                    { title: "HTTP Status Codes", link: "rack-status-codes-readme", lab: false },
+                    { title: "Dynamic URLs and Status Codes Lab", link: "rack-dynamic-routes-lab-v-000", lab: true },
+                ]
+            }
         ]
     },
     {
@@ -457,10 +499,38 @@ const data = [
     },
     {
         id: 12, type: "module", title: "Rails", sections: [
-            { id: 0, type: "section", title: "Introduction to Rails", lessons: [] },
-            { id: 1, type: "section", title: "Rails Models Basics", lessons: [] },
-            { id: 2, type: "section", title: "Intro to REST", lessons: [] },
-            { id: 3, type: "section", title: "Intro to ActionView", lessons: [] },
+            {
+                id: 0, type: "section", title: "Introduction to Rails", lessons: [
+                    { title: "Intro To Rails", link: "intro-to-rails", lab: false },
+                    { title: "Rails Application Basics", link: "rails-application-basics-readme", lab: false },
+                    { title: "Rails MVC", link: "rails-model-view-controller-readme", lab: false },
+                    { title: "Rails Static Request", link: "rails-static-request-readme-v-000", lab: true },
+                    { title: "Rails Hello World", link: "rails-hello-world-lab-v-000", lab: true },
+                    { title: "Video Review: Intro to Rails", link: "rails-video-review-intro-to-rails", lab: false },
+                ]
+            },
+            {
+                id: 1, type: "section", title: "Rails Models Basics", lessons: [
+                    { title: "ActiveRecord Models and Rails", link: "rails-activerecord-models-and-rails-readme-v-000", lab: true },
+                    { title: "ActiveRecord Models and Rails Lab", link: "rails-activerecord-model-rails-lab-v-000", lab: true },
+                ]
+            },
+            {
+                id: 2, type: "section", title: "Intro to REST", lessons: [
+                    { title: "Intro to REST", link: "rails-intro-to-rest", lab: false },
+                    { title: "RESTful Action Index Lab", link: "rails-restful-index-action-lab-v-000", lab: true },
+                    { title: "Rails Dynamic Request", link: "rails-dynamic-request-readme-v-000", lab: true },
+                    { title: "Rails Dynamic Request Lab", link: "rails-dynamic-request-lab-v-000", lab: true },
+                ]
+            },
+            {
+                id: 3, type: "section", title: "Intro to ActionView", lessons: [
+                    { title: "Rails URL Helpers", link: "rails-url-helpers-readme-v-000", lab: true },
+                    { title: "Rails URL Helpers Lab", link: "rails-url-helpers-lab-v-000", lab: true },
+                    { title: "Rails form_tag", link: "rails-form_tag-readme-v-000", lab: true },
+                    { title: "Rails form_tag Lab", link: "rails-form_tag-lab-v-000", lab: true },
+                ]
+            },
             { id: 4, type: "section", title: "CRUD with Rails", lessons: [] },
             { id: 5, type: "section", title: "Validations and Forms", lessons: [] },
             { id: 6, type: "section", title: "Associations and Rails", lessons: [] },
