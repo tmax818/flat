@@ -155,7 +155,7 @@ const data = [
     { title: "Return from Yield Statements", link: "yield-and-return-values-v-000", lab: true },
     { title: "Collect Lab", link: "my-collect-v-000", lab: true },
     { title: "Boolean Enumerators", link: "ruby-boolean-enumerables", lab: false },
-    { title: "Search Enumerators", link: "ruby-search-enumerables", lab: false },
+    { title: "Search Enumerators", link: "ruby-search-enumerators", lab: false },
     { title: "My All? Lab", link: "my_all-v-000", lab: true },
     { title: "My Find Lab", link: "my_find_code_along-v-000", lab: true },
     { title: "Cartoon Collections Lab", link: "cartoon-collections-v-000", lab: true },

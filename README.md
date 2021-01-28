@@ -9,3 +9,6 @@
 - As I was typing testData.js, I thought about having a summary for each section or module...
 
 - So, my forks are out of date...Surprise! 
+- So...I am rethinking my approach.
+
+- I want to have a collection of terms of sorts...
