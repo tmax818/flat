@@ -265,15 +265,45 @@
  ## Section 17: Final Projects 
 # SQL 
 ## Section 1: Topic Introduction 
-## Section 2: Getting Started 
-## Section 3: Table Relations 
-# ORMs and ActiveRecord 
+### [What is SQL](forks/sql-topic-introduction) 
+ ## Section 2: Getting Started 
+### [SQL Intro and Installation](forks/sql-intro-and-installation-readme) 
+ ### [SQL Database Basics](forks/sql-database-basics-readme) 
+ ### [SQL Databases and Text Editors](forks/sql-databases-and-text-editors-readme) 
+ ### [SQL Data Types](forks/sql-sqlite-data-types-readme) 
+ ### [SQL Inserting, Updating, and Selecting](forks/sql-insert-select-update-code-along) 
+ ### [Basic SQL Queries](forks/sql-queries-basic-readme) 
+ ### [SQL Aggregate Functions](forks/sql-aggregate-functions-readme) 
+ ### [SQL Aggregate Functions Lab](forks/sql-aggregate-functions-lab-v-000) 
+ ### [SQL Bear Organizer Lab](forks/SQL-bear-organizer-lab-v-000) 
+ ## Section 3: Table Relations 
+### [Edgar Codd and Table Relations](forks/sql-relational-databases-readme) 
+ ### [Table Relations](forks/sql-table-relations-readme) 
+ ### [SQL JOINS](forks/sql-joins-readme) 
+ ### [SQL Complex Joins](forks/sql-complex-joins-readme) 
+ ### [SQL Joins Tables](forks/sql-join-tables-readme) 
+ ### [Grouping and Sorting Data](forks/sql-grouping-and-sorting-readme) 
+ ### [SQL Joins Review Lectures](forks/sql-joins-review-lectures) 
+ ### [SQL Crowdfunding Lab](forks/sql-crowdfunding-lab-v-000) 
+ # ORMs and ActiveRecord 
 ## Section 1: ORMs 
 ## Section 1: ActiveRecord 
 ## Section 1: Associations 
 # Rack 
 ## Section 1: Rack and the Internet 
-# HTML Continued 
+### [How the Internet Works](forks/how-the-web-works-readme) 
+ ### [Increasing Layers of Abstraction](forks/why-layers-of-abstraction) 
+ ### [Inspecting the Web with Rack](forks/rack-intro-v-000) 
+ ### [Dynamic Web Apps with Rack](forks/rack-dynamic-web-apps-v-000) 
+ ### [Rack Responses Lab](forks/rack-responses-lab-v-000) 
+ ### [The HTTP Request](forks/rack-http-request-readme) 
+ ### [Rack Routes and GET Params Lab](forks/rack-get-params-lab-v-000) 
+ ### [Dynamic URL Routes](forks/rack-dynamic-paths-readme) 
+ ### [Rack Video Review How The Web Works Pt 1](forks/rack-video-review-how-the-web-works-pt-1) 
+ ### [Rack Video Review How The Web Works Pt 2](forks/rack-video-review-how-the-web-works-pt-2) 
+ ### [HTTP Status Codes](forks/rack-status-codes-readme) 
+ ### [Dynamic URLs and Status Codes Lab](forks/rack-dynamic-routes-lab-v-000) 
+ # HTML Continued 
 ## Section 1: Document Structure and Lists 
 ## Section 2: HTML Fundamentals 
 ## Section 3: HTML Forms 
@@ -294,10 +324,26 @@
 ## Section 7: Sinatra Project Mode 
 # Rails 
 ## Section 1: Introduction to Rails 
-## Section 2: Rails Models Basics 
-## Section 3: Intro to REST 
-## Section 4: Intro to ActionView 
-## Section 5: CRUD with Rails 
+### [Intro To Rails](forks/intro-to-rails) 
+ ### [Rails Application Basics](forks/rails-application-basics-readme) 
+ ### [Rails MVC](forks/rails-model-view-controller-readme) 
+ ### [Rails Static Request](forks/rails-static-request-readme-v-000) 
+ ### [Rails Hello World](forks/rails-hello-world-lab-v-000) 
+ ### [Video Review: Intro to Rails](forks/rails-video-review-intro-to-rails) 
+ ## Section 2: Rails Models Basics 
+### [ActiveRecord Models and Rails](forks/rails-activerecord-models-and-rails-readme-v-000) 
+ ### [ActiveRecord Models and Rails Lab](forks/rails-activerecord-model-rails-lab-v-000) 
+ ## Section 3: Intro to REST 
+### [Intro to REST](forks/rails-intro-to-rest) 
+ ### [RESTful Action Index Lab](forks/rails-restful-index-action-lab-v-000) 
+ ### [Rails Dynamic Request](forks/rails-dynamic-request-readme-v-000) 
+ ### [Rails Dynamic Request Lab](forks/rails-dynamic-request-lab-v-000) 
+ ## Section 4: Intro to ActionView 
+### [Rails URL Helpers](forks/rails-url-helpers-readme-v-000) 
+ ### [Rails URL Helpers Lab](forks/rails-url-helpers-lab-v-000) 
+ ### [Rails form_tag](forks/rails-form_tag-readme-v-000) 
+ ### [Rails form_tag Lab](forks/rails-form_tag-lab-v-000) 
+ ## Section 5: CRUD with Rails 
 ## Section 6: Validations and Forms 
 ## Section 7: Associations and Rails 
 ## Section 8: Layouts and Partials 
