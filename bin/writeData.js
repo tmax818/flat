@@ -10,7 +10,8 @@ data.forEach(modules => {
     modules.sections.forEach(section => {
         notes.write(`## Section ${section.id + 1}: ${section.title} \n`)
         section.lessons.forEach(lesson => {
-            notes.write(`### [${lesson.title}](forks/${lesson.link}) \n `)
+            notes.write(`### [${lesson.title}](forks/${lesson.link})`)
+            if (lesson.lab) { notes.write(`(LAB)\n`) } else { notes.write(`\n`) }
         })
     })
 })
