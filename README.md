@@ -11,4 +11,4 @@
 - So, my forks are out of date...Surprise! 
 - So...I am rethinking my approach.
 
-- I want to have a collection of terms of sorts...
+- I want to have a collection of terms of sorts...I like the idea of having notes in my fork.
