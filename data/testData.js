@@ -488,11 +488,77 @@ const data = [
     },
     {
         id: 11, type: "module", title: "Sinatra", sections: [
-            { id: 0, type: "section", title: "Sinatra Basics", lessons: [] },
-            { id: 1, type: "section", title: "MVC and Forms", lessons: [] },
-            { id: 2, type: "section", title: "Forms", lessons: [] },
-            { id: 3, type: "section", title: "Sessions", lessons: [] },
-            { id: 4, type: "section", title: "ActiveRecord", lessons: [] },
+            {
+                id: 0, type: "section", title: "Sinatra Basics", lessons: [
+                    { title: "What is Sinatra?", link: "what-is-sinatra", lab: false },
+                    { title: "Sinatra from Scratch", link: "sinatra-from-scratch-readme", lab: false },
+                    { title: "Sinatra Basics", link: "sinatra-basics", lab: false },
+                    { title: "Using the Shotgun Development Server", link: "sinatra-shotgun-server-v-000", lab: true },
+                    { title: "Sinatra Hello World Lab", link: "sinatra-hello-world-basics-v-000", lab: true },
+                    { title: "Sinatra Routes", link: "sinatra-routes-readme", lab: false },
+                    { title: "Sinatra Basic Routes Lab", link: "sinatra-basic-routes-lab-v-000", lab: true },
+                ]
+            },
+            {
+                id: 1, type: "section", title: "MVC and Forms", lessons: [
+                    { title: "Intro to MVC", link: "sinatra-intro-to-mvc", lab: false },
+                    { title: "Sinatra MVC File Structure", link: "sinatra-mvc-file-structure-v-000", lab: true },
+                    { title: "Sinatra Views", link: "sinatra-views-v-000", lab: true },
+                    { title: "Sinatra Basic Views Lab", link: "sinatra-basic-views-lab-v-000", lab: true },
+                    { title: "Using ERB", link: "sinatra-using-erb", lab: false },
+                    { title: "Sinatra Views Lab II", link: "sinatra-views-lab-v-000", lab: true },
+                    { title: "Video Review: Forms", link: "sinatra-video-review-forms", lab: false },
+                ]
+            },
+            {
+                id: 2, type: "section", title: "Forms", lessons: [
+                    { title: "Intro to Capybara Tests", link: "intro-to-capybara-v-000", lab: true },
+                    { title: "Dynamic Routes", link: "sinatra-dynamic-routes-codealong-v-000", lab: true },
+                    { title: "Dynamic Routes Lab", link: "sinatra-dynamic-routes-lab-v-000", lab: true },
+                    { title: "HTML Forms and Params", link: "sinatra-forms-params-readme-walkthrough-v-000", lab: true },
+                    { title: "Passing Data Between Views and Controllers", link: "sinatra-view-and-controller-readme-walkthrough-v-000", lab: true },
+                    { title: "Basic Sinatra Forms Lab", link: "basic-sinatra-forms-lab-v-000", lab: true },
+                    { title: "Layouts and Yield", link: "sinatra-yield-readme", lab: false },
+                    { title: "Integrating Models for a Full MVC", link: "sinatra-integrating-models-walkthrough-v-000", lab: true },
+                    { title: "Video: Sinatra MVC", link: "sinatra-videos-sinatra-mvc", lab: false },
+                    { title: "Sinatra MVC Lab", link: "sinatra-mvc-lab-v-000", lab: true },
+                    { title: "Sinatra Basic Forms Lab", link: "sinatra-basic-forms-lab-v-000", lab: true },
+                    { title: "Sinatra Nested Forms", link: "sinatra-nested-forms-readme", lab: false },
+                    { title: "Sinatra Nested Forms Lab: Pirates!", link: "sinatra-nested-forms-v-000", lab: true },
+                    { title: "Lab Review-- Sinatra Nested Forms Lab: Pirate...", link: "lab-review-sinatra-nested-forms-lab-pirates", lab: false },
+                    { title: "Sinatra Nested Forms Lab: Superheros!", link: "sinatra-nested-forms-lab-superheros-v-000", lab: true },
+                ]
+            },
+            {
+                id: 3, type: "section", title: "Sessions", lessons: [
+                    { title: "Sessions and Cookies", link: "sinatra-cookies-readme", lab: false },
+                    { title: "Mechanics of Sessions", link: "sinatra-mechanics-of-sessions-readme", lab: false },
+                    { title: "Sinatra Sessions Lab", link: "sinatra-basic-sessions-lab-v-000", lab: true },
+                    { title: "Sinatra Sessions Codealong", link: "sinatra-sessions-v-000", lab: true },
+                ]
+            },
+            {
+                id: 4, type: "section", title: "ActiveRecord", lessons: [
+                    { title: "ActiveRecord Setup in Sinatra", link: "sinatra-activerecord-setup-v-000", lab: true },
+                    { title: "ActiveRecord in Sinatra", link: "sinatra-activerecord-reading", lab: false },
+                    { title: "Sinatra ActiveRecord CRUD", link: "sinatra-ar-crud-lab-v-000", lab: true },
+                    { title: "User Authentication in Sinatra", link: "sinatra-user-auth-v-000", lab: true },
+                    { title: "Sinatra Sessions Lab- User Logins", link: "sinatra-logging-in-and-out-v-000", lab: true },
+                    { title: "Securing Passwords in Sinatra", link: "sinatra-password-security-v-000", lab: true },
+                    { title: "Secure Password Lab", link: "sinatra-secure-password-lab-v-000", lab: true },
+                    { title: "Video Review: Authentication", link: "sinatra-video-review-authentication", lab: false },
+                    { title: "Sinatra RESTful Routes", link: "sinatra-restful-routes-readme", lab: false },
+                    { title: "Sinatra RESTful Routes Lab", link: "sinatra-restful-routes-lab-v-000", lab: true },
+                    { title: "Using Tux in Sinatra with ActiveRecord", link: "sinatra-activerecord-using-tux-v-000", lab: true },
+                    { title: "ActiveRecord Associations in Sinatra", link: "sinatra-activerecord-associations-v-000", lab: true },
+                    { title: "ActiveRecord Associations: Join Tables", link: "sinatra-activerecord-associations-join-tables", lab: false },
+                    { title: "Sinatra Multiple Controllers", link: "sinatra-multiple-controllers", lab: false },
+                    { title: "Sinatra Complex Forms Associations", link: "sinatra-complex-forms-associations-v-000", lab: true },
+                    { title: "Sinatra Playlister", link: "playlister-sinatra-v-000", lab: true },
+                    { title: "Sinatra NYC", link: "nyc-sinatra-v-000", lab: true },
+                    { title: "Sinatra Project Planning Resources", link: "sinatra-project-planning", lab: false },
+                ]
+            },
             { id: 5, type: "section", title: "ERB Outside of Sinatra", lessons: [] },
             { id: 6, type: "section", title: "Sinatra Project Mode", lessons: [] },
         ]
