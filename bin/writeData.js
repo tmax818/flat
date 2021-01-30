@@ -10,7 +10,7 @@ data.forEach(modules => {
     modules.sections.forEach(section => {
         readme.write(`## Section ${section.id + 1}: ${section.title} \n`)
         section.lessons.forEach(lesson => {
-            readme.write(`### [${lesson.title}](forks/${lesson.link})`)
+            readme.write(`### [${lesson.title}](origins/${lesson.link})`)
             if (lesson.lab) { readme.write(`(LAB)\n`) } else { readme.write(`\n`) }
             notes.forEach(note => {
                 if (lesson.id === note.lessonId) {

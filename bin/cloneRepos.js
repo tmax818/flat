@@ -7,7 +7,7 @@ const labrepo = "https://github.com/learn-co-students"
 
 data.forEach(datum => {
     //shell.exec(`git clone --single-branch --branch tyler ${repo}/${datum.link}.git forks/${datum.link}`)
-    shell.exec(`git clone ${repo}/${datum.link}.git forks/${datum.link}`)
+    //shell.exec(`git clone ${repo}/${datum.link}.git forks/${datum.link}`)
     if (datum.lab) {
         shell.exec(`git clone ${labrepo}/${datum.link}.git origins/${datum.link} `)
     } else {

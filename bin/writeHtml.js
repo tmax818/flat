@@ -20,8 +20,8 @@ data.forEach(modules => {
     modules.sections.forEach(section => {
         html.write(`<h2> Section ${section.id + 1}: ${section.title} </h2>`)
         section.lessons.forEach(lesson => {
-            html.write(`<li><a href="forks/${lesson.link}/README.md" target="blank">${lesson.title} </a>`)
-            html.write(`<a href="forks/${lesson.link}/NOTES.md" target="blank">(Notes)</a> `)
+            html.write(`<li><a href="origins/${lesson.link}/README.md" target="blank">${lesson.title} </a>`)
+            html.write(`<a href="origins/${lesson.link}/NOTES.md" target="blank">(Notes)</a> `)
             html.write(`<a href="https://github.com/tmax818/${lesson.link}" target="blank">(link)</a></li>`)
         })
     })
