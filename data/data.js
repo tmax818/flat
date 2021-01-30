@@ -499,6 +499,20 @@ const data = [
     { title: "Introducing the DOM and Just Enough JavaScrip...", link: "fewpjs-introducing-the-dom-and-just-enough-javascript", lab: false },
     { title: "Introduction to the DOM To Get Started", link: "fewpjs-introduction-to-the-dom-to-get-started", lab: false },
     { title: "DOM Editing Lab", link: "fewpjs-dom-editing-lab-v-000", lab: true },
+    { title: "Changing the DOM with Dev Tools and JavaScript", link: "fewpjs-changing-the-dom-with-dev-tools-and-javascript", lab: false },
+    { title: "JS Fundamentals: Variables", link: "fewpjs-js-fundamentals-variables", lab: false },
+    { title: "JS Fundamentals: Variables Lab", link: "fewpjs-js-fundamentals-variables-lab-v-000", lab: true },
+    { title: "JS Fundamentals: Calling Methods", link: "fewpjs-js-fundamentals-calling-methods", lab: false },
+    { title: "The DOM Tree", link: "fewpjs-the-dom-tree", lab: false },
+    { title: "JS Fundamentals: Arrays", link: "fewpjs-js-fundamentals-collections", lab: false },
+    { title: "JS Fundamentals: Arrays Lab", link: "fewpjs-js-fundamentals-arrays-lab-v-000", lab: true },
+    { title: "JS Fundamentals: Looping And Iteration Code Along", link: "js-looping-and-iteration-looping-code-along-v-000", lab: true },
+    { title: "querySelector Methods", link: "fewpjs-queryselector-methods", lab: false },
+    { title: "Removing, Altering, and Inserting HTML Lab", link: "fewpjs-removing-altering-and-inserting-html-lab-v-000", lab: true },
+    { title: "You're a DOM Manipulation Master", link: "fewpjs-youre-a-dom-manipulation-master", lab: false },
+    { title: "Quiz: Reviewing DOM Manipulation", link: "fewpjs-reviewing-dom-manipulation-quiz", lab: false },
+    ////
+
 
     // React15
     { title: "Intro To Npm Readme", link: "intro-to-npm-readme", lab: false },
@@ -540,6 +554,14 @@ const data = [
     { title: "Component Mounting LabPancake Flipper", link: "react-component-mounting-and-unmounting-lab-v-000", lab: true },
     { title: "Update Lifecycle Readme", link: "react-update-lifecycle-readme", lab: false },
     { title: "Component Updating Lab", link: "react-component-updating-lab-v-000", lab: true },
+    ////
+    { title: "Async React", link: "react-async-readme", lab: false },
+    { title: "Async Fetch Lab", link: "react-async-fetch-lab-v-000", lab: true },
+    { title: "Async React Mini Project", link: "react-async-gif-search-lab-v-000", lab: true },
+    ////
+    { title: "Types Of Components", link: "react-types-of-components", lab: false },
+
+
 
     // Redux16
     { title: "Why Redux", link: "why-redux", lab: false },
