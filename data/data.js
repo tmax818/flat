@@ -428,6 +428,7 @@ const data = [
     { title: "CRU Rails Lab", link: "rails-cru-form_for-lab-v-000", lab: true },
     { title: "Resource Generator/ Routes", link: "rails-resource-and-scaffold-generator-v-000", lab: true },
     { title: "Rails Blog Scaffold", link: "rails-blog-scaffold-v-000", lab: true },
+    ////
     { title: "ActiveRecord Validations", link: "activerecord-validations-readme", lab: false },
     { title: "Validations in Controller Actions", link: "validations-in-controller-actions-rails", lab: false },
     { title: "Validations in Controller Actions Lab", link: "validations-in-controller-actions-rails-lab-v-000", lab: true },
@@ -437,6 +438,7 @@ const data = [
     { title: "Delete forms", link: "delete-forms-rails", lab: false },
     { title: "Rails Testing", link: "ruby-rails-testing", lab: false },
     { title: "CRUD with Validations", link: "crud-with-validations-lab-v-000", lab: true },
+    ////
     { title: "Activerecord Associations Review", link: "activerecord-associations-review", lab: false },
     { title: "Join The Fun Rails Lab", link: "join-the-fun-rails-v-000", lab: true },
     { title: "ActiveRecord Lifecycle Methods", link: "activerecord-lifecycle-reading-v-000", lab: true },
@@ -450,15 +452,18 @@ const data = [
     { title: "Has Many Through in Forms", link: "has-many-through-forms-rails-v-000", lab: true },
     { title: "Video Review: Has Many Through in Forms Lab", link: "rails-video-review-has-many-through-in-forms-lab", lab: false },
     { title: "Video Review: Deep Dive into Nested Forms", link: "rails-video-review-deep-dive-into-nested-forms", lab: false },
+    ////
     { title: "Layouts And Templates in Rails", link: "rails-layouts-and-templates", lab: false },
     { title: "Layouts And Templates in Rails Lab", link: "rails-layouts-and-templates-lab-v-000", lab: true },
     { title: "Simple Partials", link: "simple-partials-reading-v-000", lab: true },
     { title: "Simple Partials Lab", link: "simple-partials-lab-v-000", lab: true },
     { title: "Partial with Locals", link: "partial-locals-reading-v-000", lab: true },
+    ////
     { title: "Refresher On MVC", link: "refresher-on-mvc", lab: false },
     { title: "Refactoring Views With Helpers", link: "refactoring-views-with-helpers-reading-v-000", lab: true },
     { title: "Refactoring Views With Helpers Lab", link: "refactoring-views-with-helpers-lab-v-000", lab: true },
     { title: "Model Class Methods", link: "model-class-methods-reading-v-000", lab: true },
+    ////
     { title: "Routing and Nested Resources", link: "routing-nested-resources-reading-v-000", lab: true },
     { title: "Routing and Nested Resources Lab", link: "routing-nested-resources-lab-v-000", lab: true },
     { title: "Modifying Nested Resources", link: "modification-nested-routes-reading-v-000", lab: true },

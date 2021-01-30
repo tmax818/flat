@@ -597,16 +597,118 @@ const data = [
                     { title: "Rails form_tag Lab", link: "rails-form_tag-lab-v-000", lab: true },
                 ]
             },
-            { id: 4, type: "section", title: "CRUD with Rails", lessons: [] },
-            { id: 5, type: "section", title: "Validations and Forms", lessons: [] },
-            { id: 6, type: "section", title: "Associations and Rails", lessons: [] },
-            { id: 7, type: "section", title: "Layouts and Partials", lessons: [] },
-            { id: 8, type: "section", title: "Refactoring with Helpers and Model Methods", lessons: [] },
-            { id: 9, type: "section", title: "Routes and Resources", lessons: [] },
-            { id: 10, type: "section", title: "Rails Review: TodoMVC", lessons: [] },
-            { id: 11, type: "section", title: "Authentication", lessons: [] },
-            { id: 12, type: "section", title: "Popular Gems", lessons: [] },
-            { id: 13, type: "section", title: "Rails Project Mode", lessons: [] },
+            {
+                id: 4, type: "section", title: "CRUD with Rails", lessons: [
+                    { title: "Create Action", link: "rails-create-action-readme-v-000", lab: true },
+                    { title: "Create Action Lab", link: "rails-create-action-lab-v-000", lab: true },
+                    { title: "Index, Show, New, Create Lab", link: "rails-index-show-new-create-lab-v-000", lab: true },
+                    { title: "Edit/Update Action", link: "rails-edit-update-action-readme-v-000", lab: true },
+                    { title: "form_for on Edit", link: "rails-form_for-on-edit-readme-v-000", lab: true },
+                    { title: "Strong Params Basics", link: "strong-params-basics-v-000", lab: true },
+                    { title: "Rails Forms Overview", link: "rails-forms-readme", lab: false },
+                    { title: "form_for lab", link: "rails-form_for-lab-v-000", lab: true },
+                    { title: "TodoMVC 1: Assets and Managing Lists", link: "todomvc-1-assets-and-managing-lists", lab: false },
+                    { title: "Rails Generators", link: "rails-generators-readme-v-000", lab: true },
+                    { title: "CRU Rails Lab", link: "rails-cru-form_for-lab-v-000", lab: true },
+                    { title: "Resource Generator/ Routes", link: "rails-resource-and-scaffold-generator-v-000", lab: true },
+                    { title: "Rails Blog Scaffold", link: "rails-blog-scaffold-v-000", lab: true },
+                ]
+            },
+            {
+                id: 5, type: "section", title: "Validations and Forms", lessons: [
+                    { title: "ActiveRecord Validations", link: "activerecord-validations-readme", lab: false },
+                    { title: "Validations in Controller Actions", link: "validations-in-controller-actions-rails", lab: false },
+                    { title: "Validations in Controller Actions Lab", link: "validations-in-controller-actions-rails-lab-v-000", lab: true },
+                    { title: "Validations with form_tag", link: "validations-with-form_tag-rails", lab: false },
+                    { title: "Validations with form_tag lab", link: "validations-with-form_tag-rails-lab-v-000", lab: true },
+                    { title: "Validations with form_for", link: "validations-with-form_for-rails", lab: false },
+                    { title: "Delete forms", link: "delete-forms-rails", lab: false },
+                    { title: "Rails Testing", link: "ruby-rails-testing", lab: false },
+                    { title: "CRUD with Validations", link: "crud-with-validations-lab-v-000", lab: true },
+                ]
+            },
+            {
+                id: 6, type: "section", title: "Associations and Rails", lessons: [
+                    { title: "Activerecord Associations Review", link: "activerecord-associations-review", lab: false },
+                    { title: "Join The Fun Rails Lab", link: "join-the-fun-rails-v-000", lab: true },
+                    { title: "ActiveRecord Lifecycle Methods", link: "activerecord-lifecycle-reading-v-000", lab: true },
+                    { title: "Displaying Associations Data", link: "displaying-associations-rails-v-000", lab: true },
+                    { title: "Displaying Associations Data Lab", link: "displaying-associations-rails-lab-v-000", lab: true },
+                    { title: "Forms and Basic Association", link: "forms-and-basic-associations-rails", lab: false },
+                    { title: "Forms and Basic Association Lab", link: "forms-and-basic-associations-rails-lab-v-000", lab: true },
+                    { title: "Basic Nested Forms", link: "basic-nested-forms-v-000", lab: true },
+                    { title: "Displaying Has Many Through", link: "displaying-has-many-through-rails-v-000", lab: true },
+                    { title: "Displaying Has Many Through Lab", link: "displaying-has-many-through-rails-lab-v-000", lab: true },
+                    { title: "Has Many Through in Forms", link: "has-many-through-forms-rails-v-000", lab: true },
+                    { title: "Video Review: Has Many Through in Forms Lab", link: "rails-video-review-has-many-through-in-forms-lab", lab: false },
+                    { title: "Video Review: Deep Dive into Nested Forms", link: "rails-video-review-deep-dive-into-nested-forms", lab: false },
+                ]
+            },
+            {
+                id: 7, type: "section", title: "Layouts and Partials", lessons: [
+                    { title: "Layouts And Templates in Rails", link: "rails-layouts-and-templates", lab: false },
+                    { title: "Layouts And Templates in Rails Lab", link: "rails-layouts-and-templates-lab-v-000", lab: true },
+                    { title: "Simple Partials", link: "simple-partials-reading-v-000", lab: true },
+                    { title: "Simple Partials Lab", link: "simple-partials-lab-v-000", lab: true },
+                    { title: "Partial with Locals", link: "partial-locals-reading-v-000", lab: true },
+                ]
+            },
+            {
+                id: 8, type: "section", title: "Refactoring with Helpers and Model Methods", lessons: [
+                    { title: "Refresher On MVC", link: "refresher-on-mvc", lab: false },
+                    { title: "Refactoring Views With Helpers", link: "refactoring-views-with-helpers-reading-v-000", lab: true },
+                    { title: "Refactoring Views With Helpers Lab", link: "refactoring-views-with-helpers-lab-v-000", lab: true },
+                    { title: "Model Class Methods", link: "model-class-methods-reading-v-000", lab: true },
+                ]
+            },
+            {
+                id: 9, type: "section", title: "Routes and Resources", lessons: [
+                    { title: "Routing and Nested Resources", link: "routing-nested-resources-reading-v-000", lab: true },
+                    { title: "Routing and Nested Resources Lab", link: "routing-nested-resources-lab-v-000", lab: true },
+                    { title: "Modifying Nested Resources", link: "modification-nested-routes-reading-v-000", lab: true },
+                    { title: "Modifying Nested Resources Lab", link: "modification-nested-routes-lab-v-000", lab: true },
+                    { title: "Namespaced Routes", link: "namespaced-routes-reading-v-000", lab: true },
+                    { title: "Namespaced Routes Lab", link: "namespaced-routes-lab-v-000", lab: true },
+                ]
+            },
+            {
+                id: 10, type: "section", title: "Rails Review: TodoMVC", lessons: [
+                    { title: "TodoMVC 2: Lists have Items", link: "todomvc-2-lists-have-items", lab: false },
+                    { title: "TodoMVC 3: Mark Items Complete", link: "todomvc-3-mark-items-complete", lab: false },
+                    { title: "TodoMVC 4: Refactoring with Partials and Helpers", link: "todomvc-4-refactoring-with-partials-and-helpers", lab: false },
+                    { title: "TodoMVC 5: Deleting Items", link: "todomvc-5-deleting-items", lab: false },
+                ]
+            },
+            {
+                id: 11, type: "section", title: "Authentication", lessons: [
+                    { title: "Introduction to Authentication and Authorization", link: "introduction-to-authentication-and-authorization", lab: false },
+                    { title: "Cookies And Sessions", link: "cookies_and_sessions_readme", lab: false },
+                    { title: "Cookies And Sessions Lab", link: "cookies_and_sessions_lab-v-000", lab: true },
+                    { title: "Sessions Controller", link: "sessions_controller_readme", lab: false },
+                    { title: "Sessions Controller Lab", link: "sessions_controller_lab-v-000", lab: true },
+                    { title: "Login Required", link: "login_required_readme", lab: false },
+                    { title: "Login Required Lab", link: "login_required_lab-v-000", lab: true },
+                    { title: "Using has_secure Password", link: "has_secure_password_readme", lab: false },
+                    { title: "Using has_secure Password Lab", link: "has_secure_password_lab-v-000", lab: true },
+                    { title: "Video Review: Authentication", link: "rails-video-review-authentication", lab: false },
+                    { title: "Omniauth", link: "omniauth_readme-v-000", lab: true },
+                    { title: "Omniauth Review Lecture in TodoMVC", link: "omniauth-review-lecture-in-todomvc", lab: false },
+                    { title: "Omniauth Lab", link: "omniauth_lab-v-000", lab: true },
+                    { title: "Authentication And Authorization Recap And Common Gems", link: "authentication-and-authorization-recap-and-gems", lab: false },
+                    { title: "Rails Amusement Park", link: "rails-amusement-park-v-000", lab: true },
+                    { title: "Rails Project Planning Resources", link: "rails-project-planning", lab: false },
+                ]
+            },
+            {
+                id: 12, type: "section", title: "Popular Gems", lessons: [
+                    { title: "How To Find Gems", link: "rails-how-to-find-gems-readme", lab: false },
+                ]
+            },
+            {
+                id: 13, type: "section", title: "Rails Project Mode", lessons: [
+                    { title: "Rails Portfolio Project", link: "rails-assessment-v-000", lab: true },
+                ]
+            },
         ]
     },
     {
@@ -690,7 +792,13 @@ const data = [
 
                 ]
             },
-            { id: 7, type: "section", title: "Async React", lessons: [] },
+            {
+                id: 7, type: "section", title: "Async React", lessons: [
+                    { title: "Async React", link: "react-async-readme", lab: false },
+                    { title: "Async Fetch Lab", link: "react-async-fetch-lab-v-000", lab: true },
+                    { title: "Async React Mini Project", link: "react-async-gif-search-lab-v-000", lab: true },
+                ]
+            },
             { id: 8, type: "section", title: "Advanced Components", lessons: [] },
             { id: 9, type: "section", title: "React: Under the Hood", lessons: [] },
             { id: 10, type: "section", title: "Client-Side Routing", lessons: [] },

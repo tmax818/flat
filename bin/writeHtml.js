@@ -2,6 +2,9 @@ const fs = require("fs")
 const data = require("../data/testData")
 const html = fs.createWriteStream("./index.html")
 
+const readrepo = "https://github.com/learn-co-curriculum"
+const labrepo = "https://github.com/learn-co-students"
+
 
 html.write(`<!DOCTYPE html>
     <html lang="en">
@@ -21,13 +24,14 @@ data.forEach(modules => {
         html.write(`<h2> Section ${section.id + 1}: ${section.title} </h2>`)
         section.lessons.forEach(lesson => {
             html.write(`<li><a href="origins/${lesson.link}/README.md" target="blank">${lesson.title} </a>`)
-            html.write(`<a href="origins/${lesson.link}/NOTES.md" target="blank">(Notes)</a> `)
-            html.write(`<a href="https://github.com/tmax818/${lesson.link}" target="blank">(link)</a></li>`)
+            if (lesson.lab) {
+                html.write(`<a href="${labrepo}/${lesson.link}" target="blank">(LAB)</a></li>`)
+            } else {
+                html.write(`<a href="${readrepo}/${lesson.link}" target="blank">(README)</a></li>`)
+            }
         })
     })
 })
-
-
 
 html.write(`
 <script src="app.js"></script>
